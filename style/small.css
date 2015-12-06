@@ -2,6 +2,7 @@
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
   color: #000;
+  background-color: #fff
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
   color: #000;

@@ -9,8 +9,8 @@ body {
 
 /* navbar */
 
-.navbar-nav .email-icon {
-  padding-left: 100px;
+.navbar, .container {
+  background-color: #fff;
 }
 
 .navbar-sections {
