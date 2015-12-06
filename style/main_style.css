@@ -78,10 +78,6 @@ body {
   font-weight: 500;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
-}
-
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #fff;

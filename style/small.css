@@ -15,3 +15,42 @@
   height: 37px;
   width: auto;
 }
+
+/* mobile-specific menu styling */
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+.navbar-sections {
+  padding: 0;
+}
+
+.navbar-nav .email-icon {
+  padding-left: 0;
+}
+
+.navbar-nav .navbar-icon-image {
+  display: inline !important;
+}
+
+.navbar-nav {
+  text-align: left;
+  width: 190px;
+  /*margin-right: 100px;*/
+}
+
+.dropdown-menu > li > a {
+  font-weight: 200;
+}
+
+.navbar-collapse.in {
+  overflow-y: visible;
+}
+
+nav div.container {
+  width: 200px;
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: auto;
+}
