@@ -97,3 +97,10 @@ body {
   top: 19px;
   z-index: 1;
 }
+
+/* about me */
+
+.about h2 {
+  font-family: 'Manbow';
+  z-index: 1;
+}

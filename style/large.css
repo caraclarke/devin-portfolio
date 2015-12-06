@@ -35,3 +35,42 @@
   border: 0px #fff;
   box-shadow: none;
 }
+
+/* about me */
+
+.about h2 {
+  font-size: 168px;
+  /*line-height: 201px;*/
+  margin-left: 237px;
+}
+
+.about-first h2 {
+  margin-top: -15px;
+  z-index: 3;
+}
+
+.about p {
+  height: 141px;
+  width: 276px;
+  margin-top: 75px;
+}
+
+.about-image-hold {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  position: relative;
+  top: 140px;
+  left: 532px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.about-first img {
+  height: 100px;
+  width: auto;
+  position: relative;
+  top: 17px;
+  left: 40px;
+  z-index: 0;
+}
