@@ -18,3 +18,20 @@
   height: 67px;
   width: auto;
 }
+
+.navbar-nav > li > a {
+  padding-bottom: 0px;
+}
+
+.dropdown-menu > li > a {
+  display: inline;
+  font-weight: 200;
+  color: #000;
+  line-height: 1.75;
+}
+
+.dropdown-menu {
+  left: 10px;
+  border: 0px #fff;
+  box-shadow: none;
+}
