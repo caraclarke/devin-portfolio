@@ -54,3 +54,38 @@ nav div.container {
   margin-right: 0;
   margin-left: auto;
 }
+
+/* about me */
+
+.about h2 {
+  font-size: 75px;
+}
+
+.about-first h2 {
+  z-index: 3;
+}
+
+.about p {
+  height: 65px;
+  width: 240px;
+}
+
+.about-image-hold {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  position: relative;
+  top: 89px;
+  left: 125px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.about-first img {
+  height: 45px;
+  width: auto;
+  position: relative;
+  top: 13px;
+  left: 25px;
+  z-index: 0;
+}
