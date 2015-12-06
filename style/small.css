@@ -58,6 +58,10 @@ nav div.container {
 
 /* about me */
 
+.buffer {
+  display: none;
+}
+
 .about h2 {
   font-size: 75px;
 }
