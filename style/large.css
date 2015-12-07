@@ -200,6 +200,24 @@ div#hats.content {
   margin-top: 50px;
 }
 
+/* ux-portfolio */
+
+.ux-portfolio h2 {
+  font-size: 50px;
+}
+
+.ux-portfolio p {
+  text-align: left;
+}
+
+.overview-img {
+  margin-left: 35%;
+}
+
+.overview p {
+  text-align: center;
+}
+
 /* under construction */
 
 .under-construction h2 {

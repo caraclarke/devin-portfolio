@@ -11,6 +11,11 @@ h2 {
   font-family: 'Manbow';
 }
 
+.site-section {
+  height: 100vh;
+  margin-top: 50px;
+}
+
 /* navbar */
 
 .navbar, .container {
