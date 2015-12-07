@@ -119,13 +119,20 @@ body {
 .content {
   height: 100vh;
   background: transparent;
-  background-image: url('../images/devin-headshot.png');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  /*background-image: url('../images/devin-headshot.png');*/
+  /*background-attachment: fixed;*/
+  /*background-repeat: no-repeat;*/
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
+
+/*.devin {
+  position: fixed;
+  bottom: 10;
+  right: 10;
+  z-index: 0;
+}*/
 
 strong {
   font-weight: 400;

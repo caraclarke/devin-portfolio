@@ -76,9 +76,9 @@
 
 /* hats */
 
-div#hats.content {
+/*div#hats.content {
   margin-top: 100vh;
-}
+}*/
 
 .content {
   background-size: 472px;
@@ -87,6 +87,7 @@ div#hats.content {
 
 .parallax-bg {
   background: transparent;
+  width: 1117px;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
@@ -104,52 +105,38 @@ div#hats.content {
   padding-top: 300px;
 }
 
-.parallax-bg img {
-  position: relative;
-}
-
 /* hat sizes & placement */
 
 .grad-cap {
   height: auto;
   width: 302px;
-  top: 142px;
-  left: 725px;
+  margin-left: 725px;
+  margin-top: -240px;
 }
 
 .jester-cap {
   height: auto;
   width: 510px;
-  top: 55px;
-  left: 587px;
 }
 
 .comm-cap {
   height: auto;
   width: 240px;
-  top: 175px;
-  left: 800px;
 }
 
 .artist-cap {
   height: auto;
   width: 217px;
-  top: 200px;
-  left: 790px;
 }
 
 .nerd-cap {
   height: auto;
   width: 227px;
-  top: 90px;
-  left: 765px;
 }
 
 .kid-cap {
   height: 375px;
   width: auto;
-  top: -40px;
-  left: 750px;
 }
 
  /*final slide hats*/
