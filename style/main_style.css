@@ -119,9 +119,9 @@ body {
 .content {
   height: 100vh;
   background: transparent;
-  /*background-image: url('../images/devin-headshot.png');*/
-  /*background-attachment: fixed;*/
-  /*background-repeat: no-repeat;*/
+  background-image: url('../images/devin-headshot.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
@@ -136,4 +136,35 @@ body {
 
 strong {
   font-weight: 400;
+}
+
+/* resume */
+
+.resume h2 {
+  font-family: 'Manbow';
+}
+
+/* Modify button */
+.btn {
+  padding: 10px 20px;
+  border: 0 none;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.btn.outline {
+  background: none;
+  color: #000;
+  padding: 12px 22px;
+}
+
+.btn-primary.outline {
+  border: 2px solid #000;
+  color: #000;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #000;
+  border-color: #fff;
 }

@@ -62,6 +62,10 @@ nav div.container {
   display: none;
 }
 
+.about {
+  height: 100vh;
+}
+
 .about h2 {
   font-size: 75px;
 }
@@ -93,4 +97,46 @@ nav div.container {
   top: 13px;
   left: 25px;
   z-index: 0;
+}
+
+/* resume */
+
+.resume {
+  text-align: center;
+}
+
+.resume h2 {
+  font-size: 67px;
+  text-align: center;
+  margin: 25px 25px 0px 25px;
+}
+
+.resume img {
+  height: 323px;
+  width: 250px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: 0 none;
+  letter-spacing: 1px;
+  color: #000;
+  margin: 25px;
+}
+
+.btn.outline {
+  background: none;
+  color: #000;
+  padding: 6px 11px;
+}
+
+.btn-primary.outline {
+  border: 2px solid #000;
+  color: #000;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #000;
+  border-color: #fff;
 }

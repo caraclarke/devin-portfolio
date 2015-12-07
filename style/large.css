@@ -38,6 +38,10 @@
 
 /* about me */
 
+.about {
+  height: 100vh;
+}
+
 .about h2 {
   font-size: 168px;
   margin-left: 237px;
@@ -76,9 +80,9 @@
 
 /* hats */
 
-/*div#hats.content {
+div#hats.content {
   margin-top: 100vh;
-}*/
+}
 
 .content {
   background-size: 472px;
@@ -177,4 +181,21 @@
   top: -325px;
   left: 300px;
   z-index: 6;
+}
+
+/* resume */
+
+.resume h2 {
+  margin-top: 250px;
+  font-size: 54px;
+  line-height: 120px;
+  margin-left: 115px;
+}
+
+.btn {
+  margin-left: 155px;
+}
+
+.devin-resume {
+  margin-top: 50px;
 }
