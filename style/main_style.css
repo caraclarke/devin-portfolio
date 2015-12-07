@@ -7,6 +7,10 @@ body {
   padding: 0;
 }
 
+h2 {
+  font-family: 'Manbow';
+}
+
 /* navbar */
 
 .navbar, .container {
@@ -110,7 +114,6 @@ body {
 }
 
 .about h2 {
-  font-family: 'Manbow';
   z-index: 1;
 }
 
@@ -140,10 +143,6 @@ strong {
 
 /* resume */
 
-.resume h2 {
-  font-family: 'Manbow';
-}
-
 /* Modify button */
 .btn {
   padding: 10px 20px;
@@ -167,4 +166,15 @@ strong {
   color: #fff;
   background-color: #000;
   border-color: #fff;
+}
+
+/* under construction pages */
+
+.under-construction {
+  height: 100vh;
+  margin-top: 50px;
+}
+
+.under-construction p {
+  text-align: center;
 }

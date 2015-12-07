@@ -140,3 +140,25 @@ nav div.container {
   background-color: #000;
   border-color: #fff;
 }
+
+/* under construction */
+
+.under-construction h2 {
+  font-size: 65px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.under-construction {
+  height: 100vh;
+}
+
+.under-construction img {
+  height: 200px;
+  width: auto;
+  margin-left: 40%;
+}
+
+.under-construction p {
+  text-align: center;
+}
