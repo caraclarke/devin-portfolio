@@ -218,6 +218,48 @@ div#hats.content {
   text-align: center;
 }*/
 
+/* tea with strangers */
+
+.tea-with-strangers h2 {
+  font-size: 50px;
+}
+
+.top p {
+  height: 150px;
+  width: 355px;
+}
+
+.tea-profile {
+  margin-left: 25px;
+  text-align: center;
+}
+
+.tea-profile{
+  height: 209px;
+  width: 209px;
+}
+
+.tea-first {
+  height: 197px;
+  width: 197px;
+  position: relative;
+  right: 25px;
+}
+
+.tea-second {
+  height: 295px;
+  width: 295px;
+  position: relative;
+  left: 100px;
+}
+
+.tea-third {
+  height: 129px;
+  width: 129px;
+  position: relative;
+  right: 50px;
+}
+
 /* under construction */
 
 .under-construction h2 {

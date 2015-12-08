@@ -152,6 +152,32 @@ nav div.container {
   width: auto;
 }
 
+/* tea with strangers */
+
+.tea-with-strangers h2 {
+  font-size: 30px;
+}
+
+.tea-profile {
+  height: 194px;
+  width: 194px;
+}
+
+.tea-first {
+  height: 101px;
+  width: 101px;
+}
+
+.tea-second {
+  height: 152px;
+  width: 152px;
+}
+
+.tea-third {
+  height: 66px;
+  width: 66px;
+}
+
 
 /* under construction */
 
