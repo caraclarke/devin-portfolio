@@ -171,6 +171,17 @@ nav div.container {
   border-color: #fff;
 }
 
+/* ux portfolio */
+
+.ux-portfolio h2 {
+  font-size: 50px;
+}
+
+.ux-icon {
+  height: 57px;
+  width: auto;
+}
+
 /* under construction */
 
 .under-construction h2 {
