@@ -7,6 +7,10 @@ body {
   padding: 0;
 }
 
+#resume {
+  margin-top: 825vh;
+}
+
 h2 {
   font-family: 'Manbow';
 }
@@ -134,13 +138,6 @@ h2 {
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-
-/*.devin {
-  position: fixed;
-  bottom: 10;
-  right: 10;
-  z-index: 0;
-}*/
 
 strong {
   font-weight: 400;
