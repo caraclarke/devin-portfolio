@@ -7,6 +7,10 @@ body {
   padding: 0;
 }
 
+.carousel-caption {
+  color: #000;
+}
+
 #resume {
   margin-top: 825vh;
 }
