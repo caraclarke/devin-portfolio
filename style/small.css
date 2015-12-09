@@ -106,8 +106,8 @@ div#hats.content {
 }
 
 .content {
-  background-size: 372px;
-  background-position: 250px 350px;
+  background-size: 250px;
+  background-position: 250px 450px;
 }
 
 .parallax-bg {
@@ -126,6 +126,7 @@ div#hats.content {
 
 .content p {
   /*padding-top: 300px;*/
+  padding-bottom: 150px;
 }
 
 .parallax-bg img {
@@ -136,88 +137,97 @@ div#hats.content {
 
 .grad-cap {
   height: auto;
-  width: 302px;
-  bottom: 250px;
-  left: 475px;
+  width: 160px;
+  /*bottom: 250px;*/
+  left: 257px;
 }
 
 .jester-cap {
   height: auto;
-  width: 510px;
-  bottom: 455px;
-  left: 325px;
+  width: 272px;
+  /*bottom: 455px;*/
+  left: 160px;
 }
 
 .comm-cap {
   height: auto;
-  width: 240px;
-  bottom: 275px;
-  left: 550px;
+  width: 127px;
+  /*bottom: 275px;*/
+  left: 285px;
 }
 
 .artist-cap {
   height: auto;
-  width: 217px;
-  bottom: 330px;
-  left: 540px;
+  width: 114px;
+  /*bottom: 330px;*/
+  left: 285px;
 }
 
 .nerd-cap {
   height: auto;
-  width: 227px;
-  bottom: 290px;
-  left: 515px;
+  width: 120px;
+  /*bottom: 290px;*/
+  left: 275px;
 }
 
 .kid-cap {
-  height: 375px;
+  height: 195px;
   width: auto;
-  bottom: 440px;
-  left: 500px;
+  /*bottom: 440px;*/
+  left: 250px;
 }
 
  /*final slide hats*/
 
+ .final-slide p {
+  position: relative;
+  top: -50px;
+  /*padding-bottom: 250px;*/
+ }
+
  .all-the-hats {
   position: relative;
-  bottom: 225px;
+  bottom: 245px;
+  right: 250px;
  }
 
 .all-the-hats-kid {
-  height: 330px;
+  height: 195px;
   width: auto;
-  top: -150px;
-  left: 625px;
+  top: 125px;
+  left: 525px;
   z-index: 1;
 }
 
 .all-the-hats-grad {
-  top: 25px;
-  left: 250px;
+  top: 200px;
+  left: 375px;
   z-index: 5;
 }
 
 .all-the-hats-jester {
-  top: -350px;
-  left: 350px;
+  height: auto;
+  width: 272px;
+  top: 150px;
+  left: 150px;
   z-index: 2;
 }
 
 .all-the-hats-artist {
-  top: -275px;
+  /*top: -275px;*/
   left: 50px;
   z-index: 3;
 }
 
 .all-the-hats-comm {
-  left: 625px;
-  bottom: 680px;
+  left: 425px;
   z-index: 4;
 }
 
 .all-the-hats-nerd {
-  top: -675px;
-  left: 350px;
+  height: auto;
+  width: 120px;
+  left: 300px;
   z-index: 6;
 }
 
