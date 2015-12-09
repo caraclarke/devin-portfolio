@@ -89,7 +89,7 @@ div#hats.content {
 
 .content {
   background-size: 472px;
-  background-position: 700px 225px;
+  background-position: 500px 225px;
 }
 
 .parallax-bg {
@@ -107,7 +107,6 @@ div#hats.content {
 }
 
 .content p {
-  padding-left: 125px;
   padding-top: 300px;
 }
 
@@ -120,88 +119,86 @@ div#hats.content {
 .grad-cap {
   height: auto;
   width: 302px;
-  bottom: 142px;
-  left: 725px;
+  bottom: 250px;
+  left: 525px;
 }
 
 .jester-cap {
   height: auto;
   width: 510px;
-  bottom: 355px;
-  left: 587px;
+  bottom: 455px;
+  left: 375px;
 }
 
 .comm-cap {
   height: auto;
   width: 240px;
-  bottom: 175px;
-  left: 800px;
+  bottom: 275px;
+  left: 600px;
 }
 
 .artist-cap {
   height: auto;
   width: 217px;
-  bottom: 230px;
-  left: 790px;
+  bottom: 330px;
+  left: 590px;
 }
 
 .nerd-cap {
   height: auto;
   width: 227px;
   bottom: 290px;
-  left: 765px;
+  left: 565px;
 }
 
 .kid-cap {
   height: 375px;
   width: auto;
   bottom: 440px;
-  left: 750px;
+  left: 550px;
 }
 
  /*final slide hats*/
 
  .all-the-hats {
   position: relative;
-  bottom: 225px;
-  left: 30px;
  }
 
 .all-the-hats-kid {
   height: 330px;
   width: auto;
-  top: -50px;
-  left: 725px;
+  top: -400px;
+  left: 625px;
   z-index: 1;
 }
 
 .all-the-hats-grad {
-  top: 25px;
-  left: 500px;
+  top: -300px;
+  left: 250px;
   z-index: 5;
 }
 
 .all-the-hats-jester {
-  top: -10px;
-  left: 25px;
+  top: -350px;
+  right: 50px;
   z-index: 2;
 }
 
 .all-the-hats-artist {
-  top: -275px;
-  left: 775px;
+  top: -500px;
+  left: 550px;
   z-index: 3;
 }
 
 .all-the-hats-comm {
-  left: 625px;
-  top: -280px;
+  left: 225px;
+  bottom: 650px;
   z-index: 4;
 }
 
 .all-the-hats-nerd {
-  top: -325px;
-  left: 300px;
+  top: -675px;
+  left: 225px;
   z-index: 6;
 }
 
