@@ -260,21 +260,21 @@ div#hats.content {
 
 .tea-first {
   height: 197px;
-  width: 197px;
+  width: auto;
   position: relative;
   right: 25px;
 }
 
 .tea-second {
   height: 295px;
-  width: 295px;
+  width: auto;
   position: relative;
   left: 100px;
 }
 
 .tea-third {
   height: 129px;
-  width: 129px;
+  width: auto;
   position: relative;
   right: 50px;
 }
