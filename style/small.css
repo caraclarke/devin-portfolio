@@ -99,6 +99,128 @@ nav div.container {
   z-index: 0;
 }
 
+/* hats */
+
+div#hats.content {
+  margin-top: 100vh;
+}
+
+.content {
+  background-size: 372px;
+  background-position: 250px 350px;
+}
+
+.parallax-bg {
+  background: transparent;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.parallax-bg p {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.content p {
+  /*padding-top: 300px;*/
+}
+
+.parallax-bg img {
+  position: relative;
+}
+
+/* hat sizes & placement */
+
+.grad-cap {
+  height: auto;
+  width: 302px;
+  bottom: 250px;
+  left: 475px;
+}
+
+.jester-cap {
+  height: auto;
+  width: 510px;
+  bottom: 455px;
+  left: 325px;
+}
+
+.comm-cap {
+  height: auto;
+  width: 240px;
+  bottom: 275px;
+  left: 550px;
+}
+
+.artist-cap {
+  height: auto;
+  width: 217px;
+  bottom: 330px;
+  left: 540px;
+}
+
+.nerd-cap {
+  height: auto;
+  width: 227px;
+  bottom: 290px;
+  left: 515px;
+}
+
+.kid-cap {
+  height: 375px;
+  width: auto;
+  bottom: 440px;
+  left: 500px;
+}
+
+ /*final slide hats*/
+
+ .all-the-hats {
+  position: relative;
+  bottom: 225px;
+ }
+
+.all-the-hats-kid {
+  height: 330px;
+  width: auto;
+  top: -150px;
+  left: 625px;
+  z-index: 1;
+}
+
+.all-the-hats-grad {
+  top: 25px;
+  left: 250px;
+  z-index: 5;
+}
+
+.all-the-hats-jester {
+  top: -350px;
+  left: 350px;
+  z-index: 2;
+}
+
+.all-the-hats-artist {
+  top: -275px;
+  left: 50px;
+  z-index: 3;
+}
+
+.all-the-hats-comm {
+  left: 625px;
+  bottom: 680px;
+  z-index: 4;
+}
+
+.all-the-hats-nerd {
+  top: -675px;
+  left: 350px;
+  z-index: 6;
+}
+
 /* resume */
 
 .resume {
