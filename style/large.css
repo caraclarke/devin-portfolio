@@ -120,46 +120,52 @@ div#hats.content {
 .grad-cap {
   height: auto;
   width: 302px;
-  top: 142px;
+  bottom: 142px;
   left: 725px;
 }
 
 .jester-cap {
   height: auto;
   width: 510px;
-  top: 55px;
+  bottom: 355px;
   left: 587px;
 }
 
 .comm-cap {
   height: auto;
   width: 240px;
-  top: 175px;
+  bottom: 175px;
   left: 800px;
 }
 
 .artist-cap {
   height: auto;
   width: 217px;
-  top: 200px;
+  bottom: 230px;
   left: 790px;
 }
 
 .nerd-cap {
   height: auto;
   width: 227px;
-  top: 90px;
+  bottom: 290px;
   left: 765px;
 }
 
 .kid-cap {
   height: 375px;
   width: auto;
-  top: -40px;
+  bottom: 440px;
   left: 750px;
 }
 
  /*final slide hats*/
+
+ .all-the-hats {
+  position: relative;
+  bottom: 225px;
+  left: 30px;
+ }
 
 .all-the-hats-kid {
   height: 330px;
