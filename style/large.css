@@ -80,6 +80,7 @@
   z-index: 0;
 }
 
+
 /* hats */
 
 div#hats.content {
@@ -88,7 +89,7 @@ div#hats.content {
 
 .content {
   background-size: 472px;
-  background-position: bottom right;
+  background-position: 700px 225px;
 }
 
 .parallax-bg {
@@ -101,6 +102,8 @@ div#hats.content {
 .parallax-bg p {
   font-size: 36px;
   line-height: 49px;
+  width: 100%;
+  margin-top: 2px;
 }
 
 .content p {
