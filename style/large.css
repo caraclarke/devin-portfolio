@@ -229,6 +229,11 @@ div#hats.content {
   text-align: left;
 }
 
+.ux-portfolio img {
+  height: 129px;
+  width: auto;
+}
+
 .overview-img {
   margin-left: 35%;
 }
