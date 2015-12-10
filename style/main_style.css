@@ -7,6 +7,17 @@ body {
   padding: 0;
 }
 
+.open {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  z-index: 2;
+}
+
 .carousel-caption {
   color: #000;
 }
@@ -25,6 +36,10 @@ h2 {
 }
 
 /* navbar */
+
+#myNavbar {
+  z-index: 1000;
+}
 
 .navbar, .container {
   background-color: #fff;
@@ -109,10 +124,18 @@ h2 {
   font-weight: 500;
 }
 
+.nav > li > a {
+  padding: 10px 5px;
+}
+
+a.img-section-icon-a {
+  margin-left: 20px;
+}
+
 .logo {
   position: fixed;
   top: 19px;
-  z-index: 11;
+  z-index: 1111111;
 }
 
 /* about me */
@@ -121,10 +144,6 @@ h2 {
   background-color: #fff;
   width: 100%;
 }
-
-/*.buffer {
-  margin: 25px;
-}*/
 
 .about h2 {
   z-index: 1;
@@ -145,6 +164,28 @@ h2 {
 
 strong {
   font-weight: 400;
+}
+
+/* black and white icons until hover */
+
+.bw {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.bw:hover {
+  -webkit-filter: grayscale(0%); /* -webkit-filter: grayscale(100%); */
+}
+
+.ux-icon {
+  -webkit-filter: grayscale(100%);
+}
+
+.tea-profile {
+  -webkit-filter: grayscale(100%);
 }
 
 /* resume */
