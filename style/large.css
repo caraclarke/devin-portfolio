@@ -47,6 +47,7 @@
 .about h2 {
   font-size: 168px;
   margin-left: 190px;
+  margin-right: 0px;
 }
 
 .about-first h2 {
@@ -56,8 +57,31 @@
 
 .about p {
   height: 141px;
-  width: 276px;
+  width: 300px;
+  margin-left: 0px;
   margin-top: 75px;
+}
+
+@media screen and (min-width: 1280) {
+  .about p {
+    height: 141px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 75px;
+    position: absolute;
+    left: -100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about p {
+    height: 141px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 75px;
+    position: absolute;
+    left: -175px;
+  }
 }
 
 .about-image-hold {
