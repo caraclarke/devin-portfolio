@@ -56,6 +56,30 @@ nav div.container {
   margin-left: auto;
 }
 
+.navbar-nav, .navbar-nav p {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav > li{
+  float:left;
+  margin-right: 20px;
+  width: 130px;
+}
+
+.navbar-nav > li > .img-section-icon-a {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.navbar-nav > li > .img-section-icon-a,
+.navbar-nav > li > .img-section-icon-a > img {
+  height: 27px;
+  width: auto;
+}
+
 /* about me */
 
 .buffer {
@@ -67,7 +91,7 @@ nav div.container {
 }
 
 .about h2 {
-  font-size: 75px;
+  font-size: 140px;
 }
 
 .about-first h2 {
@@ -75,26 +99,26 @@ nav div.container {
 }
 
 .about p {
-  height: 65px;
+  height: 160px;
   width: 240px;
 }
 
 .about-image-hold {
-  height: 60px;
-  width: 60px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   position: relative;
-  top: 89px;
-  left: 125px;
+  top: 147px;
+  left: 250px;
   overflow: hidden;
   z-index: 1;
 }
 
 .about-first img {
-  height: 45px;
+  height: 75px;
   width: auto;
   position: relative;
-  top: 13px;
+  top: 25px;
   left: 25px;
   z-index: 0;
 }
@@ -275,7 +299,10 @@ div#hats.content {
 /* ux portfolio */
 
 .ux-portfolio h2 {
-  font-size: 30px;
+  font-size: 36px;
+  line-height: 44px;
+  height: 88px;
+  width: 237px;
 }
 
 .ux-icon {
@@ -283,10 +310,46 @@ div#hats.content {
   width: auto;
 }
 
-/* tea with strangers */
+/* communit boston */
+
+.comm-boston h2 {
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.comm-boston p {
+  font-size: 14px;
+  line-height: 19px;
+  width: 250px;
+  height: 337px;
+}
+
+.comm-icons p {
+  text-align: center;
+}
+
+.comm-icons img {
+  margin-top: -625px;
+  height: 19px;
+  width: auto;
+}
+
+* tea with strangers */
 
 .tea-with-strangers h2 {
-  font-size: 30px;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.tea-with-strangers p {
+  font-size: 14px;
+  line-height: 19px;
+  width: 232px;
+}
+
+.top p {
+  height: 183px;
 }
 
 .tea-profile {
@@ -297,29 +360,37 @@ div#hats.content {
 .tea-first {
   height: 101px;
   width: 101px;
+  left: 15px;
 }
 
 .tea-second {
-  height: 152px;
-  width: 152px;
+  height: 167px;
+  width: 167px;
+  position: relative;
+  left: 95px;
+  top: 15px;
 }
 
 .tea-third {
   height: 66px;
   width: 66px;
+  left: 30px;
 }
 
-
 /* under construction */
+
+#other {
+  margin-top: 50vh;
+}
 
 .under-construction h2 {
   font-size: 65px;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 25px;
 }
 
 .under-construction {
-  height: 100vh;
+  height: 75vh;
 }
 
 .under-construction img {

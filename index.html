@@ -14,16 +14,16 @@
   <!-- xs = phone, sm = tablet, md/lg = desktop -->
 </head>
 <body>
-
+<div id="pgcontainer">
   <a class="logo" href="#"><img src="images/desktop-eye.png"></a>
   <nav id="myNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
+    <div id="hamburgermenu" class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="sr-only">Devin</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+          <span class="icon-bar menubtn"></span>
+          <span class="icon-bar menubtn"></span>
+          <span class="icon-bar menubtn"></span>
         </button>
       </div>
       <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -48,13 +48,14 @@
           </li>
           <li class="navbar-sections"><a href="#blog">Blog</a></li>
           <!-- icons -->
-          <li><a href="mailto:devin.karbowicz@gmail.com" target="_blank"><img class="img-sections navbar-icon-image email-icon" src="images/email-icon.png"></a></li>
-          <li><a href="https://www.linkedin.com/in/devinkarbowicz" target="_blank"><img class="img-sections navbar-icon-image" src="images/linkedin-icon.png"></a></li>
-          <li><a href="https://www.instagram.com/artofnoticing/" target="_blank"><img class="img-sections navbar-icon-image" src="images/instagram-icon.png"></a></li>
-          <li><a href="https://www.behance.net/devinkarbowicz" target="_blank"><img class="img-sections navbar-icon-image" src="images/behance-icon.png"></a></li>
+          <li><a class="img-section-icon-a" href="mailto:devin.karbowicz@gmail.com" target="_blank"><img class="img-sections navbar-icon-image email-icon" src="images/email-icon.png"></a></li>
+          <li><a class="img-section-icon-a" href="https://www.linkedin.com/in/devinkarbowicz" target="_blank"><img class="img-sections navbar-icon-image" src="images/linkedin-icon.png"></a></li>
+          <li><a class="img-section-icon-a" href="https://www.instagram.com/artofnoticing/" target="_blank"><img class="img-sections navbar-icon-image" src="images/instagram-icon.png"></a></li>
+          <li><a class="img-section-icon-a" href="https://www.behance.net/devinkarbowicz" target="_blank"><img class="img-sections navbar-icon-image" src="images/behance-icon.png"></a></li>
         </ul>
       </div>
     </div>
+    <div class="overlay"></div>
   </nav>
 
   <div class="container-fluid">
@@ -180,16 +181,21 @@
     </div> <!-- end ux-portfolio -->
 
     <div id="comm-boston" class="site-section comm-boston col-sm-12 col-md-12">
-      <div class="col-sm-12 col-md-6 col-lg-6">
-        <h2>communiT Boston</h2>
+      <div class="comm-top">
+        <h2>communiT<br>Boston</h2>
         <p>We strive to use art and play on the subway (the T) to foster empathy and create micro-connections between people who might otherwise never interact and may never meet again.
 
         Part community engagement project, part social experiment, and part free event planning organization, we’re here to break norms, connect people in new ways, and inject a little more fun and meaning into people’s commutes—whether that means giving people the opportunity to shred their sorrows in a paper shredder on the T platform or encouraging people to let loose on a glow-in-the-dark bubble wrap dance floor!</p>
 
-        <p>Contact communiT Boston</p>
-        <p>Icons</p>
+        <div class="comm-icons">
+          <p>Contact communiT Boston</p>
+          <p><a class="" href="mailto:communiTBoston@gmail.com" target="_blank"><img class="img-sections navbar-icon-image email-icon" src="images/email-icon.png"></a>
+            <a class="" href="https://www.linkedin.com/in/devinkarbowicz" target="_blank"><img class="img-sections navbar-icon-image" src="images/linkedin-icon.png"></a>
+            <a class="" href="https://www.instagram.com/communitboston/" target="_blank"><img class="img-sections navbar-icon-image" src="images/instagram-icon.png"></a>
+            <a class="" href="https://www.behance.net/devinkarbowicz" target="_blank"><img class="img-sections navbar-icon-image" src="images/behance-icon.png"></a></p>
+        </div>
       </div>
-      <div class="div sm-12 col-md-6 col-lg-6">
+      <!-- <div class="div sm-12 col-md-6 col-lg-6">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
@@ -205,7 +211,7 @@
             <li data-target="#myCarousel" data-slide-to="12"></li>
             <li data-target="#myCarousel" data-slide-to="0"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
-          </ol> <!-- default start third slide -->
+          </ol>
           <div class="carousel-inner" role="listbox">
             <div class="item active">
               <img class="first-slide" src="images/comm/valentines.jpg" alt="Valentines Day">
@@ -288,24 +294,24 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div><!-- /.carousel -->
+        </div>< -->
       </div>
     </div> <!-- end comm boston -->
 
     <div id="tea-with-strangers" class="site-section tea-with-strangers col-sm-12 col-md-12">
-      <div class="col-sm-12 col-md-6 pull-left">
+      <div class="col-sm-12 col-md-6">
         <div class="col-sm-12 col-md-12 top">
           <h2>TEA WITH STRANGERS</h2>
           <p>As a host for Tea With Strangers Boston, I bring together groups of 2 to 5 strangers for 2-hour long, free-flowing conversations in public settings. You never know who is going to show up to a tea time, and you never know what you’re all going to talk about!</p>
         </div>
       </div>
-      <div class="col-sm-12 col-md-6 pull-right">
+      <div class="col-sm-12 col-md-6">
         <img class="img-responsive img-circle tea-first" src="images/tea-strangers/IMG_1123.png">
         <img class="img-responsive img-circle tea-second" src="images/tea-strangers/IMG_1527.png">
         <img class="img-responsive img-circle tea-third" src="images/tea-strangers/IMG_3142.png">
       </div>
-      <div class="col-sm-12 col-md-6 pull-right">
-        <p>To find out more or sign up for a tea time, check out my host profile:</p><br><br>
+      <div class="col-sm-12 col-md-6">
+        <p>To find out more or sign up for a tea time, check out my host profile:</p>
         <a href="http://www.teawithstrangers.com/cities/BOSTON/host/4097" target="_blank"><img class="img-responsive img-circle tea-profile" src="images/tea-strangers/profile.png"></a>
       </div>
     </div> <!-- end tea with strangers -->
@@ -346,9 +352,11 @@
       </div>
     </div>
   </div>
+</div> <!-- end pg container -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/main.js"></script>
+  <!-- <script type="text/javascript" src="js/hamburger_menu.js"></script> -->
 </body>
 </html>

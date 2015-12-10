@@ -59,6 +59,30 @@
   width: auto;
 }
 
+.navbar-nav, .navbar-nav p {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav > li{
+  float:left;
+  margin-right: 20px;
+  width: 130px;
+}
+
+.navbar-nav > li > .img-section-icon-a {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.navbar-nav > li > .img-section-icon-a,
+.navbar-nav > li > .img-section-icon-a > img {
+  height: 27px;
+  width: auto;
+}
+
 /* tablet menu styling */
 
 .navbar-default .navbar-toggle .icon-bar {
