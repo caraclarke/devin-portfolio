@@ -288,8 +288,8 @@ div#hats.content {
 }
 
 .resume img {
-  height: 323px;
-  width: 250px;
+  height: 579px;
+  width: 448px;
 }
 
 .btn {
@@ -319,18 +319,57 @@ div#hats.content {
 
 /* ux portfolio */
 
+.top-port {
+  margin-top: 25vh;
+}
+
 .ux-portfolio h2 {
-  font-size: 50px;
+  font-size: 54px;
+  line-height: 65px;
+  margin-bottom: -75px;
+}
+
+.ux-portfolio p {
+  font-size: 17px;
+  line-height: 27px;
 }
 
 .ux-icon {
-  height: 57px;
+  height: 94px;
   width: auto;
+}
+
+/* communit boston */
+
+.comm-boston h2 {
+  margin-top: 20vh;
+  font-size: 54px;
+  line-height: 65px;
+}
+
+.comm-boston p {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.comm-top p {
+  height: 317px;
+  width: 333px;
+}
+
+.comm-icons p {
+  text-align: center;
+}
+
+.comm-icons img {
+  margin-top: -625px;
+  height: auto;
+  width: 25px;
 }
 
 /* tea with strangers */
 
-.tea-with-strangers h2 {
+/*.tea-with-strangers h2 {
   font-size: 50px;
 }
 
@@ -353,8 +392,62 @@ div#hats.content {
   height: 129px;
   width: 129px;
 }
+*/
+
+/* tea with strangers */
+
+.tea-with-strangers h2 {
+  font-size: 50px;
+}
+
+.top p {
+  width: 355px;
+}
+
+.tea-profile {
+  margin-left: 25px;
+  text-align: center;
+}
+
+.tea-profile{
+  height: 209px;
+  width: 209px;
+}
+
+.tea-first {
+  height: 197px;
+  width: 197px;
+  position: relative;
+  left: 50px;
+}
+
+.tea-second {
+  height: 295px;
+  width: 295px;
+  position: relative;
+  left: 150px;
+}
+
+.tea-third {
+  height: 129px;
+  width: 129px;
+  position: relative;
+  /*right: 50px;*/
+}
+
+.tea-move {
+  text-align: center;
+}
+
+.tea-move img {
+  margin-left: 30%;
+}
 
 /* under construction */
+
+#other h2 {
+  margin-top: 75vh;
+}
 
 .under-construction h2 {
   font-size: 65px;

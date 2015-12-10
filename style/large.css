@@ -221,8 +221,12 @@ div#hats.content {
 
 /* ux-portfolio */
 
+.top-port {
+  margin-top: 25vh;
+}
+
 .ux-portfolio h2 {
-  font-size: 50px;
+  font-size: 54px;
 }
 
 .ux-portfolio p {
@@ -242,6 +246,34 @@ div#hats.content {
   margin-left: 40%;
 }
 
+/* communit boston */
+
+.comm-boston h2 {
+  margin-top: 20vh;
+  font-size: 54px;
+  line-height: 65px;
+}
+
+.comm-boston p {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.comm-top p {
+  height: 317px;
+  width: 333px;
+}
+
+.comm-icons p {
+  text-align: center;
+}
+
+.comm-icons img {
+  margin-top: -625px;
+  height: auto;
+  width: 25px;
+}
+
 /* tea with strangers */
 
 .tea-with-strangers h2 {
@@ -249,7 +281,6 @@ div#hats.content {
 }
 
 .top p {
-  height: 150px;
   width: 355px;
 }
 
@@ -265,26 +296,35 @@ div#hats.content {
 
 .tea-first {
   height: 197px;
-  width: auto;
+  width: 197px;
   position: relative;
   right: 25px;
 }
 
 .tea-second {
   height: 295px;
-  width: auto;
+  width: 295px;
   position: relative;
   left: 100px;
 }
 
 .tea-third {
   height: 129px;
-  width: auto;
+  width: 129px;
   position: relative;
   right: 50px;
 }
 
+.tea-move {
+  position: relative;
+  bottom: 325px;
+}
+
 /* under construction */
+
+#other h2 {
+  margin-top: 50vh;
+}
 
 .under-construction h2 {
   font-size: 65px;

@@ -306,8 +306,8 @@ div#hats.content {
 }
 
 .ux-icon {
-  height: 57px;
-  width: auto;
+  height: auto;
+  width: 57px;
 }
 
 /* communit boston */
@@ -379,7 +379,7 @@ div#hats.content {
 
 /* under construction */
 
-#other {
+#other h2 {
   margin-top: 50vh;
 }
 
