@@ -24,7 +24,7 @@
   top: 0;
   left: 0;
   background: #000;
-  opacity: 0.5;
+  opacity: 0.7;
   z-index: 2;
 }
 
@@ -95,36 +95,30 @@ nav div.container {
   margin-right: 10px;
 }
 
-.icon-link-nav {
-  display: inline-block;
-  list-style: none;
-  position: relative;
-  margin-top: 15px;
-}
-
 /* line up navbar icons */
 
 img.img-sections.navbar-icon-image.email-icon {
   position: relative;
-  right: 50px;
+  top: 10px;
+  right: 30px;
 }
 
 img.img-sections.navbar-icon-image.linkedin-icon {
   position: relative;
-  left: 5px;
-  bottom: 27px;
+  left: 23px;
+  bottom: 36px;
 }
 
 img.img-sections.navbar-icon-image.instagram-icon {
   position: relative;
-  left: 39px;
-  bottom: 54px;
+  bottom: 83px;
+  left: 56px;
 }
 
 img.img-sections.navbar-icon-image.behance-icon {
   position: relative;
-  bottom: 81px;
-  left: 70px;
+  bottom: 130px;
+  left: 87px;
 }
 
 .img-sections {
