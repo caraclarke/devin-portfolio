@@ -4,6 +4,12 @@
   float: none;
 }
 
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: initial;
+}
+
 .navbar-left,.navbar-right {
   float: none !important;
 }
