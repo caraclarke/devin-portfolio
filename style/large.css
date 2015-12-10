@@ -127,7 +127,7 @@ div#hats.content {
   height: auto;
   width: 510px;
   bottom: 455px;
-  left: 375px;
+  left: 360px;
 }
 
 .comm-cap {
@@ -141,14 +141,14 @@ div#hats.content {
   height: auto;
   width: 217px;
   bottom: 330px;
-  left: 590px;
+  left: 565px;
 }
 
 .nerd-cap {
   height: auto;
   width: 227px;
   bottom: 290px;
-  left: 565px;
+  left: 550px;
 }
 
 .kid-cap {
@@ -167,8 +167,8 @@ div#hats.content {
 .all-the-hats-kid {
   height: 330px;
   width: auto;
-  top: -400px;
-  left: 625px;
+  top: -475px;
+  left: 590px;
   z-index: 1;
 }
 
@@ -180,7 +180,7 @@ div#hats.content {
 
 .all-the-hats-jester {
   top: -350px;
-  right: 50px;
+  right: 150px;
   z-index: 2;
 }
 
@@ -191,14 +191,14 @@ div#hats.content {
 }
 
 .all-the-hats-comm {
-  left: 225px;
+  left: 700px;
   bottom: 650px;
   z-index: 4;
 }
 
 .all-the-hats-nerd {
   top: -675px;
-  left: 225px;
+  left: 400px;
   z-index: 6;
 }
 
@@ -277,7 +277,12 @@ div#hats.content {
 /* tea with strangers */
 
 .tea-with-strangers h2 {
+  margin-top: 25vh;
   font-size: 50px;
+}
+
+.tea-resp-img {
+  margin-top: 25vh;
 }
 
 .top p {
@@ -317,7 +322,7 @@ div#hats.content {
 
 .tea-move {
   position: relative;
-  bottom: 325px;
+  bottom: 300px;
 }
 
 /* under construction */
