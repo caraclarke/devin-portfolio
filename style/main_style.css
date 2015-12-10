@@ -127,7 +127,7 @@ h2 {
 .logo {
   position: fixed;
   top: 19px;
-  z-index: 11;
+  z-index: 1111111;
 }
 
 /* about me */
