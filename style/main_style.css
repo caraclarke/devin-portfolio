@@ -166,6 +166,28 @@ strong {
   font-weight: 400;
 }
 
+/* black and white icons until hover */
+
+.bw {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.bw:hover {
+  -webkit-filter: grayscale(0%); /* -webkit-filter: grayscale(100%); */
+}
+
+.ux-icon {
+  -webkit-filter: grayscale(100%);
+}
+
+.tea-profile {
+  -webkit-filter: grayscale(100%);
+}
+
 /* resume */
 
 /* Modify button */
