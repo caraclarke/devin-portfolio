@@ -17,6 +17,17 @@
   width: auto;
 }
 
+.open {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  z-index: 2;
+}
+
 /* mobile-specific menu styling */
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -37,8 +48,9 @@
 
 .navbar-nav {
   text-align: left;
-  width: 190px;
-  height: 100vh;
+  width: 200px;
+  height: auto;
+  background-color: #fff;
 }
 
 .navbar-fixed-top {
@@ -57,6 +69,7 @@
 
 nav div.container {
   width: 200px;
+  height: 1000px;
   padding-right: 0;
   margin-right: 0;
   margin-left: auto;
@@ -68,20 +81,51 @@ nav div.container {
   padding: 0;
 }
 
-.navbar-nav > li{
+.navbar-nav > li {
   float:left;
   margin-right: 20px;
   width: 130px;
 }
 
-.navbar-nav > li > .img-section-icon-a {
+.navbar-nav > li > .img-sections {
   display: block;
   float: left;
   margin-right: 10px;
 }
 
-.navbar-nav > li > .img-section-icon-a,
-.navbar-nav > li > .img-section-icon-a > img {
+.icon-link-nav {
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  margin-top: 15px;
+}
+
+/* line up navbar icons */
+
+img.img-sections.navbar-icon-image.email-icon {
+  position: relative;
+  right: 50px;
+}
+
+img.img-sections.navbar-icon-image.linkedin-icon {
+  position: relative;
+  left: 5px;
+  bottom: 27px;
+}
+
+img.img-sections.navbar-icon-image.instagram-icon {
+  position: relative;
+  left: 39px;
+  bottom: 54px;
+}
+
+img.img-sections.navbar-icon-image.behance-icon {
+  position: relative;
+  bottom: 81px;
+  left: 70px;
+}
+
+.img-sections {
   height: 27px;
   width: auto;
 }

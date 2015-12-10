@@ -124,6 +124,14 @@ h2 {
   font-weight: 500;
 }
 
+.nav > li > a {
+  padding: 10px 5px;
+}
+
+a.img-section-icon-a {
+  margin-left: 20px;
+}
+
 .logo {
   position: fixed;
   top: 19px;
