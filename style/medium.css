@@ -71,20 +71,33 @@
   padding: 0;
 }
 
-.navbar-nav > li{
-  float:left;
-  margin-right: 20px;
-  width: 130px;
+/* line up navbar icons */
+
+img.img-sections.navbar-icon-image.email-icon {
+  position: relative;
+  top: 10px;
+  right: 30px;
 }
 
-.navbar-nav > li > .img-section-icon-a {
-  display: block;
-  float: left;
-  margin-right: 10px;
+img.img-sections.navbar-icon-image.linkedin-icon {
+  position: relative;
+  left: 23px;
+  bottom: 36px;
 }
 
-.navbar-nav > li > .img-section-icon-a,
-.navbar-nav > li > .img-section-icon-a > img {
+img.img-sections.navbar-icon-image.instagram-icon {
+  position: relative;
+  bottom: 83px;
+  left: 56px;
+}
+
+img.img-sections.navbar-icon-image.behance-icon {
+  position: relative;
+  bottom: 130px;
+  left: 87px;
+}
+
+.img-sections {
   height: 27px;
   width: auto;
 }
@@ -373,28 +386,34 @@ div#hats.content {
   width: 25px;
 }
 
+.clip-circle {
+  -webkit-clip-path: circle(50.1% at 50% 50%);
+  clip-path: circle(50.1% at 50% 50%);
+}
+
 .slideshow-section {
   position: relative;
   top: -550px;
 }
 
 .slideshow-section, .slideshow-section img {
-  height: 250px;
-  width: auto;
+  height: 300px;
+  width: 300px;
+}
+
+.text {
+  height: 300px;
+  width: 300px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 50px;
+  text-align: center;
 }
 
 .slideshow-section h1 {
-  text-align: center;
-  width: 380px;
-  padding-right: 15px;
-  padding-left: 15px;
   font-size: 20px;
 }
 .slideshow-section p {
-  width: 380px;
-  height: 250px;
-  padding-right: 15px;
-  padding-left: 15px;
   font-size: 14px;
 }
 
