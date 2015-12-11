@@ -6,7 +6,22 @@ body {
   margin: 0;
   padding: 0;
 }
+.slide {
+  color: #000;
+  font-size: 15px;
+}
 
+.carousel-caption {
+  color: #000;
+}
+
+i.glyphicon.glyphicon-chevron-down {
+  position: fixed;
+  top: 90vh;
+  right: 25px;
+}
+
+/*
 .open {
   position: absolute;
   height: 100vh;
@@ -16,11 +31,7 @@ body {
   background: #000;
   opacity: 0.5;
   z-index: 2;
-}
-
-.carousel-caption {
-  color: #000;
-}
+}*/
 
 #resume {
   margin-top: 825vh;

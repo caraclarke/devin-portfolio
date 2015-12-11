@@ -11,7 +11,8 @@
   <link rel="stylesheet" media="screen and (max-width: 767px)" href="style/small.css">
   <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 981px)" href="style/medium.css">
   <link rel="stylesheet" media="screen and (min-width: 982px)" href="style/large.css">
-  <!-- xs = phone, sm = tablet, md/lg = desktop -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css"/>
 </head>
 <body>
   <a class="logo" href="#"><img src="images/desktop-eye.png"></a>
@@ -26,24 +27,24 @@
         </button>
       </div>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="nav navbar-nav">
-          <li class="dropdown navbar-sections">
+        <ul id="menu" class="nav navbar-nav">
+          <li data-menuanchor="about-me" class="dropdown navbar-sections">
             <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Me <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#about-me">About Me</a></li>
-              <li><a href="#hats">My Hats</a></li>
-              <li><a href="#resume">Resume</a></li>
+              <li data-menuanchor="about-me"><a href="#about-me">About Me</a></li>
+              <li data-menuanchor="hats"><a href="#hats">My Hats</a></li>
+              <li data-menuanchor="#resume"><a href="#resume">Resume</a></li>
             </ul>
           </li>
-          <li class="navbar-sections"><a href="#ux-portfolio">UX Portfolio</a></li>
-          <li class="navbar-sections"><a href="#community">communiT Boston</a></li>
+          <li data-menuanchor="#ux-portfolio" class="navbar-sections"><a href="#ux-portfolio">UX Portfolio</a></li>
+          <li data-menuanchor="#comm-boston" class="navbar-sections"><a href="#comm-boston">communiT Boston</a></li>
           <li class="dropdown navbar-sections">
             <a href="#" class="dropdown-toggle active navbar-sections" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#community">Tea With Strangers</a></li>
-              <li><a href="#other">Psychology Research</a></li>
-              <li><a href="#art">Art</a></li>
-              <li><a href="#blog">Blog</a></li>
+              <li data-menuanchor="#tea-with-strangers"><a href="#tea-with-strangers">Tea With Strangers</a></li>
+              <li data-menuanchor="#other"><a href="#other">Psychology Research</a></li>
+              <li data-menuanchor="#art"><a href="#art">Art</a></li>
+              <li data-menuanchor="#blog"><a href="#blog">Blog</a></li>
             </ul>
           </li>
           <!-- icons -->
@@ -56,9 +57,9 @@
     </div>
   </nav>
 <div class="overlay">
-  <div class="container-fluid">
+  <div id="fullpage" class="container-fluid">
 
-    <div id="about-me" class="about site-section">
+    <div id="about-me" class="about site-section section">
       <div class="about-me">
         <div class="about-first col-xs-12 col-sm-12 col-md-12">
           <div class="about-image-hold"><img src="images/devin-headshot.png"></div>
@@ -71,57 +72,58 @@
         <div class="col-xs-12 col-sm-12 col-md-5">
           <p>I grew up with a question mark studded to the tip of my tongue and have been following my curiosity ever since. I delight in connecting ideas and engaging in empathy-driven, creative problem solving.</p>
         </div>
+        <!-- <a class="btn" href="#" id="moveDown"><i class="glyphicon glyphicon-chevron-down"></i></a> -->
       </div><br><br> <!-- hats -->
 
-      <div id="hats" class="site-section content">
+      <div id="hats" class="site-section content section">
         <div class="parallax-bg first col-xs-12 col-sm-12 col-md-12">
           <p>I wear a lot of different hats...</p>
         </div>
       </div>
 
-      <div class="site-section content">
-        <div class="parallax-bg social-psych">
+      <div class="site-section content section">
+        <div id="social-psych" class="parallax-bg social-psych">
           <p>I'm a <strong>social psychologist</strong>.</p>
           <img class="grad-cap" src="images/grad-cap.png">
         </div>
       </div>
 
-      <div class="site-section content">
+      <div class="section site-section content">
         <div class="parallax-bg improvisor">
           <p>I'm an <strong>improvisor</strong>.</p>
           <img class="jester-cap" src="images/jester-cap.png">
         </div>
       </div>
 
-      <div class="site-section content">
+      <div class="section site-section content">
         <div class="parallax-bg community-builder">
           <p>I'm a <strong>community builder</strong>.</p>
           <img class="comm-cap" src="images/comm-cap.png">
         </div>
       </div>
 
-      <div class="site-section content">
+      <div class="section site-section content">
         <div class="parallax-bg artist">
           <p>I'm an <strong>artist</strong>.</p>
           <img class="artist-cap" src="images/artist-cap.png">
         </div>
       </div>
 
-      <div class="site-section content">
+      <div class="section site-section content">
         <div class="parallax-bg nerd">
           <p>I'm a <strong>nerd</strong>.</p>
           <img class="nerd-cap" src="images/nerd-cap.png">
         </div>
       </div>
 
-      <div class="site-section content">
+      <div class="section site-section content">
         <div class="parallax-bg kid">
           <p>I'm a <strong>kid at heart</strong>.</p>
           <img class="kid-cap" src="images/kid-cap.png">
         </div>
       </div>
 
-      <div class="site-section content">
+      <div class="section site-section content">
         <div class="parallax-bg final-slide">
           <p>And altogether,<br>I'm a <strong>designer</strong>.</p>
           <div class="all-the-hats">
@@ -136,7 +138,7 @@
       </div> <!-- end hats -->
     </div> <!-- end about me -->
 
-    <div id="resume" class="site-section resume col-sm-12 col-md-12">
+    <div id="resume" class="section site-section resume col-sm-12 col-md-12">
       <div class="col-sm-12 col-md-6">
         <h2>Resume</h2>
         <a class="btn btn-primary outline" href="images/resume-pdf.pdf" target="_blank">Download</a>
@@ -146,7 +148,7 @@
       </div>
     </div> <!-- end resume -->
 
-    <div id="ux-portfolio" class="site-section ux-portfolio col-sm-12 col-md-12">
+    <div id="ux-portfolio" class="section site-section ux-portfolio col-sm-12 col-md-12">
       <div class="col-sm-12 col-md-6 col-lg-6 top-port">
         <h2>UX<br>Portfolio</h2>
       </div>
@@ -174,7 +176,7 @@
       </div>
     </div> <!-- end ux-portfolio -->
 
-    <div id="comm-boston" class="site-section comm-boston col-sm-12 col-md-12">
+    <div id="comm-boston" class="section site-section comm-boston col-sm-12 col-md-12">
       <div class="comm-top col-sm-12 col-md-6 col-lg-6">
         <h2>communiT<br>Boston</h2>
         <p>We strive to use art and play on the subway (the T) to foster empathy and create micro-connections between people who might otherwise never interact and may never meet again.
@@ -189,110 +191,56 @@
             <a class="" href="https://twitter.com/communitboston" target="_blank"><img class="img-sections navbar-icon-image" src="images/twitter-icon.png"></a></p>
         </div>
       </div>
-      <!-- <div class="col-sm-12 col-md-6 col-lg-6">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-            <li data-target="#myCarousel" data-slide-to="5"></li>
-            <li data-target="#myCarousel" data-slide-to="6"></li>
-            <li data-target="#myCarousel" data-slide-to="7"></li>
-            <li data-target="#myCarousel" data-slide-to="8"></li>
-            <li data-target="#myCarousel" data-slide-to="9"></li>
-            <li data-target="#myCarousel" data-slide-to="10"></li>
-            <li data-target="#myCarousel" data-slide-to="11"></li>
-            <li data-target="#myCarousel" data-slide-to="12"></li>
-            <li data-target="#myCarousel" data-slide-to="0"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img class="first-slide" src="images/comm/valentines.jpg" alt="Valentines Day">
-            </div>
-            <div class="item">
-              <img class="second-slide" src="images/comm/oval.jpg" alt="">
-              <div class="container">
-                <div class="carousel-caption">
-                  <h1>Celebrate Valentines Day with communiT Boston</h1>
-                  <p>We handed out free carnations with the caveat that recipients not keep the flowers for themselves, but instead challenge themselves to share the love by passing the carnations along to someone else, whether that was a stranger they ran into on their way home or whomever they were taking the T to meet. We also had a valentine-making station and a 60-second eye contact challenge.</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img class="third-slide" src="images/comm/let-go.png" alt="Let Go">
-            </div>
-            <div class="item">
-              <img class="fourth-slide" src="images/comm/oval.jpg" alt="Let Go">
-              <div class="container">
-                <div class="carousel-caption">
-                  <h1>Let Go & Look Up</h1>
-                  <p>What happens when you put a paper shredder on the T platform? We asked commuters to write down something that they wanted to let go of in their life and then gave them the carnal satisfaction of shredding it and claiming their own personal blank slate.</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img class="fifth-slide" src="images/comm/tattoos.jpg" alt="Tattoos with Strangers">
-            </div>
-            <div class="item">
-              <img class="sixth-slide" src="images/comm/oval.jpg" alt="Tattoos with Strangers">
-              <div class="container">
-                <div class="carousel-caption">
-                  <h1>Tattoos with Strangers</h1>
-                  <p>We offered free temporary tattoos to commuters, with the caveat that they had to get a matching one with a stranger. People could pick from more than 200 options (hearts, dinosaurs, and Disney Princesses, anyone?) to commemorate their fledgling acquaintanceship with a passerby!</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img class="seventh-slide" src="images/comm/tin-can.jpg" alt="Tin Can">
-            </div>
-            <div class="item">
-              <img class="eighth-slide" src="images/comm/oval.jpg" alt="Tin Can">
-              <div class="container">
-                <div class="carousel-caption">
-                  <h1>2 Strangers, 2 Tin Cans, and a String: A Social Experiment in Connection</h1>
-                  <p>We put away our smart phones and brought long-distance communication back to the basics. We asked strangers to have a casual chat with each other using the original walkie talkie: two cans and a piece of string!</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img class="ninth-slide" src="images/comm/pop-up.jpg" alt="Pop Up">
-            </div>
-            <div class="item">
-              <img class="tenth-slide" src="images/comm/oval.jpg" alt="Pop Up">
-              <div class="container">
-                <div class="carousel-caption">
-                  <h1>A Pop-out, Pop-up Event</h1>
-                  <p>We invited people to let loose on our glow‑in‑the‑dark bubble wrap dance floor and experience the joy of popping along to the beat of the music.</p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img class="eleventh-slide" src="images/comm/worry-bead.png" alt="Worry Bead">
-            </div>
-            <div class="item">
-              <img class="twelveth-slide" src="images/comm/oval.jpg" alt="Worry Bead">
-              <div class="container">
-                <div class="carousel-caption">
-                  <h1>The Worry Bead Project</h1>
-                  <p>We invited people to be part of our reworking of an ancient ritual by writing down their worries on the bead of your choice. The color of each bead served as a visual representation of the different categories of worries--relational, financial, spiritual, etc. Over the course of the afternoon, individuals’ internal experiences were transformed into a collective art piece.</p>
-                </div>
-              </div>
-            </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="slideshow-section">
+          <div>
+            <img class="first-slide" src="images/comm/valentines.jpg" alt="Valentines Day">
           </div>
-          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>< -->
+          <div>
+            <h1>Celebrate Valentines Day with communiT Boston</h1>
+              <p>We handed out free carnations with the caveat that recipients not keep the flowers for themselves, but instead challenge themselves to share the love by passing the carnations along to someone else, whether that was a stranger they ran into on their way home or whomever they were taking the T to meet. We also had a valentine-making station and a 60-second eye contact challenge.</p>
+          </div>
+          <div>
+            <img class="third-slide" src="images/comm/let-go.png" alt="Let Go">
+          </div>
+          <div>
+            <h1>Let Go & Look Up</h1>
+            <p>What happens when you put a paper shredder on the T platform? We asked commuters to write down something that they wanted to let go of in their life and then gave them the carnal satisfaction of shredding it and claiming their own personal blank slate.</p>
+          </div>
+          <div>
+            <img class="fifth-slide" src="images/comm/tattoos.jpg" alt="Tattoos with Strangers">
+          </div>
+          <div>
+            <h1>Tattoos with Strangers</h1>
+            <p>We offered free temporary tattoos to commuters, with the caveat that they had to get a matching one with a stranger. People could pick from more than 200 options (hearts, dinosaurs, and Disney Princesses, anyone?) to commemorate their fledgling acquaintanceship with a passerby!</p>
+          </div>
+          <div>
+            <img class="seventh-slide" src="images/comm/tin-can.jpg" alt="Tin Can">
+          </div>
+          <div>
+            <h1>2 Strangers, 2 Tin Cans, and a String: A Social Experiment in Connection</h1>
+            <p>We put away our smart phones and brought long-distance communication back to the basics. We asked strangers to have a casual chat with each other using the original walkie talkie: two cans and a piece of string!</p>
+          </div>
+          <div>
+            <img class="ninth-slide" src="images/comm/pop-up.jpg" alt="Pop Up">
+          </div>
+          <div>
+            <h1>A Pop-out, Pop-up Event</h1>
+            <p>We invited people to let loose on our glow‑in‑the‑dark bubble wrap dance floor and experience the joy of popping along to the beat of the music.</p>
+          </div>
+          <div>
+            <img class="eleventh-slide" src="images/comm/worry-bead.png" alt="Worry Bead">
+          </div>
+          <div>
+            <h1>The Worry Bead Project</h1>
+            <p>We invited people to be part of our reworking of an ancient ritual by writing down their worries on the bead of your choice. The color of each bead served as a visual representation of the different categories of worries--relational, financial, spiritual, etc. Over the course of the afternoon, individuals’ internal experiences were transformed into a collective art piece.</p>
+          </div>
+        </div>
       </div>
+
     </div> <!-- end comm boston -->
 
-    <div id="tea-with-strangers" class="site-section tea-with-strangers col-sm-12 col-md-12">
+    <div id="tea-with-strangers" class="section site-section tea-with-strangers col-sm-12 col-md-12">
       <div class="col-sm-12 col-md-6">
         <div class="col-sm-12 col-md-12 top">
           <h2>TEA WITH STRANGERS</h2>
@@ -310,7 +258,7 @@
       </div>
     </div> <!-- end tea with strangers -->
 
-    <div class="site-section under-construction" id="other">
+    <div class="section site-section under-construction" id="other">
       <div class="col-sm-12 col-md-12">
         <h2>Psychology Research</h2><br>
       </div>
@@ -322,7 +270,7 @@
       </div>
     </div>
 
-    <div class="site-section under-construction" id="art">
+    <div class="section site-section under-construction" id="art">
       <div class="col-sm-12 col-md-12">
         <h2>Art</h2><br>
       </div>
@@ -334,7 +282,7 @@
       </div>
     </div>
 
-    <div class="site-section under-construction" id="blog">
+    <div class="section site-section under-construction" id="blog">
       <div class="col-sm-12 col-md-12">
         <h2>Blog</h2><br>
       </div>
@@ -349,7 +297,9 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <!-- <script type="text/javascript" src="library/jquery.scrollify.min.js"></script> -->
   <script type="text/javascript" src="js/main.js"></script>
-  <script type="text/javascript" src="js/hamburger_menu.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+  <!-- <script type="text/javascript" src="js/hamburger_menu.js"></script> -->
 </body>
 </html>

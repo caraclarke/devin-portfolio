@@ -298,6 +298,25 @@ div#hats.content {
   width: 25px;
 }
 
+.slideshow-section, .slideshow-section img {
+  height: 500px;
+  width: auto;
+}
+
+.slideshow-section h1 {
+  text-align: center;
+  width: 600px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.slideshow-section p {
+  width: 600px;
+  height: 250px;
+  padding-left: 75px;
+  padding-right: 75px;
+  font-size: 17px;
+}
+
 /* tea with strangers */
 
 .tea-with-strangers h2 {
