@@ -373,37 +373,36 @@ div#hats.content {
   width: 25px;
 }
 
-/* tea with strangers */
-
-/*.tea-with-strangers h2 {
-  font-size: 50px;
+.slideshow-section {
+  position: relative;
+  top: -550px;
 }
 
-.tea-profile{
-  height: 209px;
-  width: 209px;
+.slideshow-section, .slideshow-section img {
+  height: 250px;
+  width: auto;
 }
 
-.tea-first {
-  height: 197px;
-  width: 197px;
+.slideshow-section h1 {
+  text-align: center;
+  width: 380px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 20px;
 }
-
-.tea-second {
-  height: 295px;
-  width: 295px;
+.slideshow-section p {
+  width: 380px;
+  height: 250px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 14px;
 }
-
-.tea-third {
-  height: 129px;
-  width: 129px;
-}
-*/
 
 /* tea with strangers */
 
 .tea-with-strangers h2 {
   font-size: 50px;
+  margin-top: 350px;
 }
 
 .top p {

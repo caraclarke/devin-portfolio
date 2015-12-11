@@ -373,12 +373,38 @@ div#hats.content {
   width: auto;
 }
 
-* tea with strangers */
+.slideshow-section {
+  position: relative;
+  top: -550px;
+}
+
+.slideshow-section, .slideshow-section img {
+  height: 250px;
+  width: auto;
+}
+
+.slideshow-section h1 {
+  text-align: center;
+  width: 380px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 20px;
+}
+.slideshow-section p {
+  width: 380px;
+  height: 250px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 14px;
+}
+
+/* tea with strangers */
 
 .tea-with-strangers h2 {
   font-size: 36px;
   line-height: 44px;
   text-align: center;
+  margin-top: 350px;
 }
 
 .tea-with-strangers p {

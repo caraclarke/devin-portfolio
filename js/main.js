@@ -12,6 +12,6 @@ $(document).ready(function() {
         initialSlide: 2,
         respondTo: 'min',
         swipeToSlide: true,
-        variableWidth: true,
+        variableWidth: true
     });
 });
