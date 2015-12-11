@@ -17,10 +17,6 @@
   width: auto;
 }
 
-.open {
-  -webkit-filter: grayscale(25%);
-}
-
 /* mobile-specific menu styling */
 
 .navbar-default .navbar-toggle .icon-bar {

@@ -21,17 +21,25 @@ i.glyphicon.glyphicon-chevron-down {
   right: 25px;
 }
 
-/*
+
 .open {
-  position: absolute;
-  height: 100vh;
+  position: fixed;
+  height: 1000px;
   width: 100%;
   top: 0;
   left: 0;
-  background: #000;
-  opacity: 0.5;
-  z-index: 2;
+  background: gray;
+  opacity: 0.25;
+  z-index: 11;
+}
+/*
+.open {
+  -webkit-filter: grayscale(25%);
 }*/
+
+.nav-height {
+  height: 1000px;
+}
 
 #resume {
   margin-top: 825vh;
@@ -187,7 +195,7 @@ strong {
 }
 
 .bw:hover {
-  -webkit-filter: grayscale(0%); /* -webkit-filter: grayscale(100%); */
+  -webkit-filter: grayscale(0%);
 }
 
 .ux-icon {
