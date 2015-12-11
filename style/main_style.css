@@ -32,10 +32,6 @@ i.glyphicon.glyphicon-chevron-down {
   opacity: 0.25;
   z-index: 11;
 }
-/*
-.open {
-  -webkit-filter: grayscale(25%);
-}*/
 
 .nav-height {
   height: 1000px;
