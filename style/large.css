@@ -298,23 +298,35 @@ div#hats.content {
   width: 25px;
 }
 
+.slideshow-section {
+  margin-top: 20vh;
+}
+
 .slideshow-section, .slideshow-section img {
   height: 500px;
-  width: auto;
+  width: 500px;
+}
+
+.clip-circle {
+  -webkit-clip-path: circle(50.1% at 50% 50%);
+  clip-path: circle(50.1% at 50% 50%);
+}
+
+.text {
+  height: 500px;
+  width: 500px;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-top: 75px;
 }
 
 .slideshow-section h1 {
   text-align: center;
-  width: 600px;
-  padding-left: 75px;
-  padding-right: 75px;
+  font-size: 24px;
 }
 .slideshow-section p {
-  width: 600px;
-  height: 250px;
-  padding-left: 75px;
-  padding-right: 75px;
   font-size: 17px;
+  text-align: center;
 }
 
 /* tea with strangers */
