@@ -313,7 +313,7 @@ div#hats.content {
 }
 
 .resume h2 {
-  font-size: 67px;
+  /*font-size: 67px;*/
   text-align: center;
 }
 
@@ -350,7 +350,7 @@ div#hats.content {
 /* ux portfolio */
 
 .ux-portfolio h2 {
-  font-size: 36px;
+  /*font-size: 36px;*/
   line-height: 44px;
   height: 88px;
   width: 237px;
@@ -419,7 +419,7 @@ div#hats.content {
 /* tea with strangers */
 
 .tea-with-strangers h2 {
-  font-size: 36px;
+  /*font-size: 36px;*/
   line-height: 44px;
   text-align: center;
   margin-top: 350px;
@@ -467,7 +467,7 @@ div#hats.content {
 }
 
 .under-construction h2 {
-  font-size: 65px;
+  /*font-size: 65px;*/
   text-align: center;
   margin-top: 25px;
 }
