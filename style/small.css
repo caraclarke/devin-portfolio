@@ -17,6 +17,14 @@
   width: auto;
 }
 
+h1, h2, h3 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 20px;
+}
+
 /* mobile-specific menu styling */
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -49,6 +57,7 @@
 
 .dropdown-menu > li > a {
   font-weight: 200;
+  font-size: 20px;
 }
 
 .navbar-collapse.in {
@@ -126,8 +135,7 @@ img.img-sections.navbar-icon-image.behance-icon {
 }
 
 .about h2 {
-  font-size: 160px;
-  width: 240px;
+  font-size: 32px;
 }
 
 .about-first h2 {
@@ -135,7 +143,6 @@ img.img-sections.navbar-icon-image.behance-icon {
 }
 
 .about p {
-  height: 160px;
   width: 240px;
   font-size: 20px;
 }
