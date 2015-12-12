@@ -287,6 +287,7 @@ div#hats.content {
 }
 
 .all-the-hats-comm {
+  top: 50px;
   left: 200px;
   z-index: 4;
 }
