@@ -10,11 +10,7 @@ body {
 @font-face {
   font-family: 'Manbow';
   src: url('http://www.myfontfree.com/data/60/m/manbow/manbow clear.ttf');
-  src: url('http://www.myfontfree.com/data/60/m/manbow/manbow clear.ttf?#iefix') format('embedded-opentype'),
-       url('http://www.myfontfree.com/data/60/m/manbow/manbow clear.woff2') format('woff2'),
-       url('http://www.myfontfree.com/data/60/m/manbow/manbow clear.woff') format('woff'),
-       url('http://www.myfontfree.com/data/60/m/manbow/manbow clear.ttf')  format('truetype'),
-       url('http://www.myfontfree.com/data/60/m/manbow/manbow clear.svg#Manbow') format('svg');
+  src: url('http://www.myfontfree.com/data/60/m/manbow/manbow clear.ttf')  format('truetype');
 }
 
 .slide {
