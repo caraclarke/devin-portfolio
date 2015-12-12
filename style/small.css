@@ -163,10 +163,16 @@ img.img-sections.navbar-icon-image.behance-icon {
 /* hats */
 
 div#hats.content {
-  margin-top: 100vh;
+  margin-top: 50vh;
 }
 
 .content {
+  background-image: url('../images/devin-headshot.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
   background-size: 250px;
   background-position: 250px 450px;
 }
@@ -281,7 +287,7 @@ div#hats.content {
 }
 
 .all-the-hats-comm {
-  left: 425px;
+  left: 200px;
   z-index: 4;
 }
 
