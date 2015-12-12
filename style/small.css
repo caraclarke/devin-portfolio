@@ -126,7 +126,8 @@ img.img-sections.navbar-icon-image.behance-icon {
 }
 
 .about h2 {
-  font-size: 140px;
+  font-size: 160px;
+  width: 240px;
 }
 
 .about-first h2 {
@@ -136,6 +137,7 @@ img.img-sections.navbar-icon-image.behance-icon {
 .about p {
   height: 160px;
   width: 240px;
+  font-size: 20px;
 }
 
 .about-image-hold {
@@ -143,17 +145,17 @@ img.img-sections.navbar-icon-image.behance-icon {
   width: 100px;
   border-radius: 50%;
   position: relative;
-  top: 147px;
-  left: 250px;
+  top: 165px;
+  left: 295px;
   overflow: hidden;
   z-index: 1;
 }
 
 .about-first img {
-  height: 75px;
+  height: 80px;
   width: auto;
   position: relative;
-  top: 25px;
+  top: 20px;
   left: 25px;
   z-index: 0;
 }
