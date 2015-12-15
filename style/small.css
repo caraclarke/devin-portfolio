@@ -1,3 +1,7 @@
+body, html {
+  width: 100%;
+}
+
 /* navbar */
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -46,7 +50,7 @@ p {
 
 .navbar-nav {
   text-align: left;
-  width: 200px;
+  /*width: 200px;*/
   background-color: #fff;
 }
 
@@ -70,7 +74,7 @@ p {
 }
 
 nav div.container {
-  width: 200px;
+  /*width: 200px;*/
   padding-right: 0;
   margin-right: 0;
   margin-left: auto;
@@ -85,7 +89,7 @@ nav div.container {
 .navbar-nav > li {
   float:left;
   margin-right: 20px;
-  width: 130px;
+  /*width: 130px;*/
 }
 
 .navbar-nav > li > .img-sections {
@@ -140,7 +144,7 @@ img.img-sections.navbar-icon-image.behance-icon {
 }
 
 .about p {
-  width: 240px;
+  /*width: 240px;*/
   font-size: 20px;
 }
 
@@ -191,7 +195,7 @@ div#hats.content {
 .parallax-bg p {
   font-size: 30px;
   text-align: center;
-  width: 100%;
+  /*width: 100%;*/
   margin-top: 2px;
 }
 
@@ -349,8 +353,8 @@ div#hats.content {
 .ux-portfolio h2 {
   /*font-size: 36px;*/
   line-height: 44px;
-  height: 88px;
-  width: 237px;
+  /*height: 88px;*/
+  /*width: 237px;*/
 }
 
 .ux-icon {
@@ -368,7 +372,7 @@ div#hats.content {
 .comm-boston p {
   font-size: 14px;
   line-height: 19px;
-  width: 250px;
+  /*width: 250px;*/
   height: 337px;
 }
 
@@ -417,7 +421,7 @@ div#hats.content {
 
 .tea-with-strangers h2 {
   /*font-size: 36px;*/
-  line-height: 44px;
+  /*line-height: 44px;*/
   text-align: center;
   margin-top: 350px;
 }
@@ -425,7 +429,7 @@ div#hats.content {
 .tea-with-strangers p {
   font-size: 14px;
   line-height: 19px;
-  width: 232px;
+  /*width: 232px;*/
 }
 
 .top p {
