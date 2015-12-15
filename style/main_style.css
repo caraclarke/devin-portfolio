@@ -33,7 +33,6 @@ i.glyphicon.glyphicon-chevron-down {
   right: 25px;
 }
 
-
 .open-nav {
   position: fixed;
   height: 100vh;
@@ -171,8 +170,13 @@ a.img-section-icon-a {
   width: 100%;
 }
 
-.about h2 {
-  z-index: 1;
+.about-first h2 {
+  z-index: 100;
+  position: relative;
+}
+
+.about-image-hold img {
+  z-index: 0;
 }
 
 /* hats */

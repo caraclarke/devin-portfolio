@@ -16,6 +16,10 @@
   width: auto;
 }
 
+img.img-sections.navbar-icon-image.email-icon {
+  margin-left: 300px;
+}
+
 .logo img {
   height: 67px;
   width: auto;
@@ -52,7 +56,6 @@
 
 .about-first h2 {
   margin-top: -15px;
-  z-index: 3;
 }
 
 .about p {
@@ -89,10 +92,10 @@
   width: 120px;
   border-radius: 50%;
   position: relative;
-  top: 140px;
+  top: 139px;
   left: 485px;
   overflow: hidden;
-  z-index: 1;
+  z-index: 11;
 }
 
 .about-first img {
@@ -101,7 +104,6 @@
   position: relative;
   top: 17px;
   left: 40px;
-  z-index: 0;
 }
 
 
