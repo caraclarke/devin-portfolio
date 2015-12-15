@@ -234,11 +234,11 @@ div#hats.content {
   margin-top: 250px;
   font-size: 54px;
   line-height: 120px;
-  margin-left: 115px;
+  /*margin-left: 115px;*/
 }
 
 .btn {
-  margin-left: 155px;
+  margin-left: 50px;
 }
 
 .devin-resume {
