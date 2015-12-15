@@ -193,7 +193,7 @@ div#hats.content {
 .parallax-bg p {
   font-size: 30px;
   text-align: left;
-  width: 100%;
+  /*width: 100%;*/
   margin-top: 2px;
 }
 
@@ -360,8 +360,12 @@ div#hats.content {
 
 /* communit boston */
 
+.slick-slider {
+  margin-top: 550px;
+}
+
 .comm-boston h2 {
-  margin-top: 20vh;
+  margin-top: 350px;
   font-size: 54px;
   line-height: 65px;
 }
@@ -372,7 +376,7 @@ div#hats.content {
 }
 
 .comm-top p {
-  height: 317px;
+  /*height: 317px;*/
   width: 333px;
 }
 
@@ -381,7 +385,7 @@ div#hats.content {
 }
 
 .comm-icons img {
-  margin-top: -625px;
+  /*margin-top: -625px;*/
   height: auto;
   width: 25px;
 }
@@ -425,7 +429,7 @@ div#hats.content {
 }
 
 .top p {
-  width: 355px;
+  /*width: 355px;*/
 }
 
 .tea-profile {
@@ -433,7 +437,7 @@ div#hats.content {
   text-align: center;
 }
 
-.tea-profile{
+.tea-profile {
   height: 209px;
   width: 209px;
 }
