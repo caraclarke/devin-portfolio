@@ -192,7 +192,7 @@ div#hats.content {
   height: 330px;
   width: auto;
   top: -475px;
-  left: 590px;
+  left: 500px;
   z-index: 1;
 }
 
@@ -215,14 +215,14 @@ div#hats.content {
 }
 
 .all-the-hats-comm {
-  left: 700px;
+  left: 325px;
   bottom: 650px;
   z-index: 4;
 }
 
 .all-the-hats-nerd {
   top: -675px;
-  left: 400px;
+  left: 150px;
   z-index: 6;
 }
 
