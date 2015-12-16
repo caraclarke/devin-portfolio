@@ -15,6 +15,10 @@ $(document).ready(function() {
         variableWidth: true
     });
 
+    (function() {
+        setTimeout(function() {$('.pic-1').css('display', 'none')}, 3800);
+    }());
+
     function stopAnimation() {
         setTimeout(function() {
         $('figure').css("display", "none");
