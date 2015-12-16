@@ -68,11 +68,24 @@ h2 {
 
 .navbar, .container {
   background-color: #fff;
+  display: inline-block;
+  width: 100%;
 }
 
 .navbar-sections {
   padding: 10px 15px;
 }
+
+/* navbar links no wiggle */
+
+a {
+  letter-spacing: 0.5px
+}
+
+a:hover, a:focus {
+  font-weight: bold;
+  letter-spacing: 0.25px;
+} /* end */
 
 .navbar-nav i {
   color: #000;
@@ -99,6 +112,7 @@ h2 {
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #000;
   font-weight: 500;
+  /*text-shadow:0 0 1px black;*/
 }
 
 .navbar-default .navbar-text {
@@ -112,18 +126,21 @@ h2 {
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #000;
   font-weight: 500;
+  /*text-shadow:0 0 1px black;*/
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #000;
   background-color: #fff;
   font-weight: 500;
+  /*text-shadow:0 0 1px black;*/
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: #000;
   background-color: #fff;
   font-weight: 500;
+  /*text-shadow:0 0 1px black;*/
 }
 
 .navbar-default .navbar-toggle {
@@ -133,6 +150,7 @@ h2 {
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #fff;
   font-weight: 500;
+  /*text-shadow:0 0 1px black;*/
 }
 
 .navbar-default .navbar-collapse,
@@ -147,6 +165,7 @@ h2 {
 .navbar-default .navbar-link:hover {
   color: #000;
   font-weight: 500;
+  /*text-shadow:0 0 1px black;*/
 }
 
 .nav > li > a {
