@@ -17,10 +17,6 @@ $(document).ready(function() {
 
     function stopAnimation() {
         setTimeout(function() {
-        $('figure').css("-webkit-animation", "none");
-        $('figure').css("-moz-animation", "none");
-        $('figure').css("-ms-animation", "none");
-        $('figure').css("animation", "none");
         $('figure').css("display", "none");
         }, 5000);
         setTimeout(function() {
@@ -30,13 +26,19 @@ $(document).ready(function() {
 
     stopAnimation();
 
-    $("#picture-anim").click(function() {
-        var el = $(this),
-        newone = el.clone(true);
+    $("#navbar-eye-img").on('click', function() {
+        console.log('click');
+        $('#picture-anim').css('display','block');
+        $('figure').css('display','block');
+        $('#picture-anim').replaceWith($('#picture-anim'));
 
-        el.before(newone);
+       setTimeout(function() {
+        $('figure').css("display", "none");
+        }, 5000);
+        setTimeout(function() {
+            $('#picture-anim').css("display", "none");
+        }, 7000);
 
-        $("." + el.attr("class") + ":last").remove();
     });
 
 });
