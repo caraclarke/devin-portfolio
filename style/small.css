@@ -4,6 +4,15 @@ body, html {
 
 /* navbar */
 
+div#hamburgermenu.container.nav-height {
+  width: 200px;
+  display: block;
+}
+
+.navbar {
+  width: initial;
+}
+
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
   color: #000;
   background-color: #fff;
@@ -102,26 +111,23 @@ nav div.container {
 
 img.img-sections.navbar-icon-image.email-icon {
   position: relative;
-  top: 10px;
-  right: 30px;
+  top: 46px;
+  right: 70px;
+}
 }
 
 img.img-sections.navbar-icon-image.linkedin-icon {
   position: relative;
-  left: 23px;
-  bottom: 36px;
 }
 
 img.img-sections.navbar-icon-image.instagram-icon {
   position: relative;
-  bottom: 83px;
-  left: 56px;
+  left: 7px;
 }
 
 img.img-sections.navbar-icon-image.behance-icon {
   position: relative;
-  bottom: 130px;
-  left: 87px;
+  right: 18px;
 }
 
 .img-sections {
@@ -145,7 +151,7 @@ img.img-sections.navbar-icon-image.behance-icon {
 
 .about p {
   /*width: 240px;*/
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .about-image-hold {
@@ -182,7 +188,7 @@ div#hats.content {
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
   background-size: 250px;
-  background-position: 225px 225px;
+  background-position: 225px 445px;
 }
 
 .parallax-bg {
@@ -196,7 +202,7 @@ div#hats.content {
   font-size: 30px;
   text-align: center;
   /*width: 100%;*/
-  margin-top: 2px;
+  /*margin-top: 2px;*/
 }
 
 .content p {
@@ -296,7 +302,7 @@ div#hats.content {
 
 .all-the-hats-comm {
   top: 50px;
-  left: 200px;
+  left: 450px;
   z-index: 4;
 }
 
@@ -364,16 +370,11 @@ div#hats.content {
 
 /* communit boston */
 
-.comm-boston h2 {
-  font-size: 40px;
-  line-height: 44px;
-}
-
 .comm-boston p {
   font-size: 14px;
   line-height: 19px;
   /*width: 250px;*/
-  height: 337px;
+  /*height: 225px;*/
 }
 
 .comm-icons p {
@@ -381,7 +382,7 @@ div#hats.content {
 }
 
 .comm-icons img {
-  margin-top: -625px;
+  /*margin-top: -625px;*/
   height: 19px;
   width: auto;
 }
@@ -393,7 +394,7 @@ div#hats.content {
 
 .slideshow-section {
   position: relative;
-  top: -550px;
+  margin-top: 20px;
 }
 
 .slideshow-section, .slideshow-section img {
@@ -480,7 +481,7 @@ div#hats.content {
 .under-construction img {
   height: 200px;
   width: auto;
-  margin-left: 40%;
+  margin-left: 37%;
 }
 
 .under-construction p {

@@ -16,12 +16,12 @@ $(document).ready(function() {
     });
 
     (function() {
-        setTimeout(function() {$('.pic-1').css('display', 'none')}, 3800);
+        setTimeout(function() {$('.pic-1').css('display', 'none')}, 3000);
     }());
 
     function stopAnimation() {
         setTimeout(function() {
-        $('figure').css("display", "none");
+            $('figure').css("display", "none");
         }, 5000);
         setTimeout(function() {
             $('#picture-anim').css("display", "none");
@@ -36,13 +36,12 @@ $(document).ready(function() {
         $('figure').css('display','block');
         $('#picture-anim').replaceWith($('#picture-anim'));
 
-       setTimeout(function() {
-        $('figure').css("display", "none");
+        setTimeout(function() {
+            $('figure').css("display", "none");
         }, 5000);
         setTimeout(function() {
             $('#picture-anim').css("display", "none");
         }, 7000);
 
     });
-
 });
