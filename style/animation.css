@@ -8,6 +8,35 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+  background-color: #fff;
+  animation: bye 2s linear;
+  animation-fill-mode: forwards;
+  -o-animation: bye 2s linear;
+  -moz-animation: bye 2s linear;
+  -webkit-animation: bye 2s linear;
+   animation-delay: 9s;
+  -o-animation-delay: 9s;
+  -moz--animation-delay: 9s;
+  -webkit-animation-delay: 9s;
+}
+
+.pic-wrapper::before{
+  background-color: #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  animation: bye 2s linear;
+  animation-fill-mode: forwards;
+  -o-animation: bye 2s linear;
+  -moz-animation: bye 2s linear;
+  -webkit-animation: bye 2s linear;
+   animation-delay: 9s;
+  -o-animation-delay: 9s;
+  -moz--animation-delay: 9s;
+  -webkit-animation-delay: 9s;
 }
 
 figure {
@@ -17,14 +46,19 @@ figure {
   width: 100%;
   height: 100%;
   opacity: 0;
-  animation: slideShow 24s linear alternate 0s;
-  -o-animation: slideShow 24s linear alternate 0s;
-  -moz-animation: slideShow 24s linear alternate 0s;
-  -webkit-animation: slideShow 24s linear alternate 0s;
+  background-color: #fff;
+  animation: slideShow 6s 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -o-animation: slideShow 6s 1;
+  -moz-animation: slideShow 6s 1;
+  -webkit-animation: slideShow 6s 1;
+  z-index: 100;
 }
 
 .pic-1 {
   opacity: 1;
+  background-color: #fff;
   background: url('../images/eye-full.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -33,10 +67,11 @@ figure {
 }
 
 .pic-2 {
-  animation-delay: 6s;
-  -o-animation-delay: 6s;
-  -moz--animation-delay: 6s;
-  -webkit-animation-delay: 6s;
+  background-color: #fff;
+  animation-delay: 3s;
+  -o-animation-delay: 3s;
+  -moz--animation-delay: 3s;
+  -webkit-animation-delay: 3s;
   background: url('../images/eye-profile-only.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -63,10 +98,17 @@ slideShow {  0% {
 }
  100% {
  opacity: 0;
- transform:scale(1);
- -ms-transformm:scale(1);
+ /*transform:scale(1);
+ -ms-transformm:scale(1);*/
+ display: none;
 }
 }
+
+@keyframes
+bye {
+  100% { display: none;}
+}
+
 
 @-o-keyframes
 slideShow {  0% {
@@ -85,7 +127,8 @@ slideShow {  0% {
 }
  100% {
  opacity: 0;
- -o-transformm:scale(1);
+ /*-o-transformm:scale(1);*/
+ display: none;
 }
 }
 
@@ -106,7 +149,7 @@ slideShow {  0% {
 }
  100% {
  opacity: 0;
- -moz-transformm:scale(1);
+ /*-moz-transformm:scale(1);*/
 }
 }
 
@@ -127,6 +170,7 @@ slideShow {  0% {
 }
  100% {
  opacity: 0;
- -webkit-transformm:scale(1);
+ /*-webkit-transformm:scale(1);*/
+ display: none;
 }
 }
