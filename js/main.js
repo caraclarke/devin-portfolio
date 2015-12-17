@@ -16,32 +16,19 @@ $(document).ready(function() {
     });
 
     (function() {
-        setTimeout(function() {$('.pic-1').css('display', 'none')}, 3000);
+        setTimeout(function() {$('#intro-video').css('display', 'none')}, 4100);
     }());
 
-    function stopAnimation() {
-        setTimeout(function() {
-            $('figure').css("display", "none");
-        }, 5000);
-        setTimeout(function() {
-            $('#picture-anim').css("display", "none");
-        }, 7000);
-    }
-
-    stopAnimation();
-
     $("#navbar-eye-img").on('click', function() {
-        console.log('click');
-        $('#picture-anim').css('display','block');
-        $('figure').css('display','block');
-        $('#picture-anim').replaceWith($('#picture-anim'));
-
-        setTimeout(function() {
-            $('figure').css("display", "none");
-        }, 5000);
-        setTimeout(function() {
-            $('#picture-anim').css("display", "none");
-        }, 7000);
-
+        $('#intro-video').css('display','block');
+        var video = $('#intro-video')[0];
+          if (video.paused) {
+            video.play();
+            setTimeout(function() {$('#intro-video').css('display', 'none')}, 4000);
+          }
+          else {
+            video.pause();
+          }
+          return false;
     });
 });
