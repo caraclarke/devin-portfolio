@@ -286,7 +286,7 @@ div#hats.content {
 
 #sol-icon {
   width: 145px;
-  height: 145px;
+  height: auto;
 }
 
 .top-port {
