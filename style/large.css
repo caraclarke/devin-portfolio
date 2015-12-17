@@ -268,14 +268,14 @@ div#hats.content {
 /* resume */
 
 .resume h2 {
-  /*margin-top: 250px;*/
+  margin-top: 250px;
   font-size: 54px;
   line-height: 120px;
-  /*margin-left: 115px;*/
+  margin-left: 115px;
 }
 
 .btn {
-  margin-left: 50px;
+  margin-left: 200px;
 }
 
 .devin-resume {
