@@ -223,28 +223,34 @@ strong {
   font-weight: 400;
 }
 
-/* black and white icons until hover */
+/* change text on hover */
 
-.bw {
-  -webkit-transition: all 0.25s ease;
-     -moz-transition: all 0.25s ease;
-       -o-transition: all 0.25s ease;
-      -ms-transition: all 0.25s ease;
-          transition: all 0.25s ease;
+span.text-content {
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
 
-.bw:hover {
-  -webkit-filter: grayscale(0%);
+.hold-port-image:hover span.text-content {
+  opacity: 1;
 }
 
-.ux-icon {
-  -webkit-filter: grayscale(100%);
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
-
-.tea-profile {
-  -webkit-filter: grayscale(100%);
-}
-
 /* resume */
 
 #resume {
