@@ -27,11 +27,11 @@ html {
   color: #000;
 }
 
-i.glyphicon.glyphicon-chevron-down {
+/*i.glyphicon.glyphicon-chevron-down {
   position: fixed;
   top: 90vh;
   right: 25px;
-}
+}*/
 
 .open-nav {
   position: fixed;
@@ -53,9 +53,9 @@ h2 {
   font-family: 'Manbow';
 }
 
-.site-section {
+/*.site-section {
   height: 100vh;
-}
+}*/
 
 .top {
   opacity: 1;
@@ -211,7 +211,7 @@ a.img-section-icon-a {
 
 .content {
   height: 100vh;
-  background-image: url('../images/devin-headshot.png');
+  /*background-image: url('../images/devin-headshot.png');*/
   background-attachment: fixed;
   background-repeat: no-repeat;
   -webkit-transition: all 0.2s ease;
@@ -258,7 +258,7 @@ span.text-content span {
 /* resume */
 
 #resume {
-  margin-top: 800vh;
+  /*margin-top: 800vh;*/
 }
 
 /* Modify button */
@@ -289,7 +289,7 @@ span.text-content span {
 /* under construction pages */
 
 .under-construction {
-  height: 100vh;
+  /*height: 100vh;*/
   margin-top: 50px;
 }
 

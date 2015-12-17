@@ -49,7 +49,7 @@ ul#menu.nav.navbar-nav {
 /* about me */
 
 .about {
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 .about h2 {
@@ -147,12 +147,22 @@ ul#menu.nav.navbar-nav {
 /* hats */
 
 div#hats.content {
-  margin-top: 100vh;
+  /*margin-top: 100vh;*/
+}
+
+.content p {
+  margin-left: 25vh;
 }
 
 .content {
   background-size: 472px;
-  background-position: 500px 225px;
+  background-position: 130vh 130vh;
+}
+
+section .content {
+  background-image: url('../images/devin-headshot.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .parallax-bg {
@@ -182,42 +192,42 @@ div#hats.content {
 .grad-cap {
   height: auto;
   width: 302px;
-  bottom: 250px;
+  /*bottom: 250px;*/
   left: 525px;
 }
 
 .jester-cap {
   height: auto;
   width: 510px;
-  bottom: 455px;
+  /*bottom: 455px;*/
   left: 360px;
 }
 
 .comm-cap {
   height: auto;
   width: 240px;
-  bottom: 275px;
+  /*bottom: 275px;*/
   left: 600px;
 }
 
 .artist-cap {
   height: auto;
   width: 217px;
-  bottom: 330px;
+  /*bottom: 330px;*/
   left: 565px;
 }
 
 .nerd-cap {
   height: auto;
   width: 227px;
-  bottom: 290px;
+  /*bottom: 290px;*/
   left: 550px;
 }
 
 .kid-cap {
   height: 375px;
   width: auto;
-  bottom: 440px;
+  /*bottom: 440px;*/
   left: 550px;
 }
 
@@ -230,37 +240,37 @@ div#hats.content {
 .all-the-hats-kid {
   height: 330px;
   width: auto;
-  top: -475px;
+  /*top: -475px;*/
   left: 500px;
   z-index: 1;
 }
 
 .all-the-hats-grad {
-  top: -300px;
+  /*top: -300px;*/
   left: 250px;
   z-index: 5;
 }
 
 .all-the-hats-jester {
-  top: -350px;
+  /*top: -350px;*/
   right: 150px;
   z-index: 2;
 }
 
 .all-the-hats-artist {
-  top: -500px;
+  /*top: -500px;*/
   left: 550px;
   z-index: 3;
 }
 
 .all-the-hats-comm {
   left: 325px;
-  bottom: 650px;
+  /*bottom: 650px;*/
   z-index: 4;
 }
 
 .all-the-hats-nerd {
-  top: -675px;
+  /*top: -675px;*/
   left: 150px;
   z-index: 6;
 }
@@ -317,7 +327,7 @@ div#hats.content {
 /* communit boston */
 
 .comm-boston h2 {
-  margin-top: 20vh;
+  /*margin-top: 20vh;*/
   font-size: 54px;
   line-height: 65px;
 }
@@ -375,12 +385,12 @@ div#hats.content {
 /* tea with strangers */
 
 .tea-with-strangers h2 {
-  margin-top: 25vh;
+  margin-top: 20vh;
   font-size: 50px;
 }
 
 .tea-resp-img {
-  margin-top: 25vh;
+  margin-top: 15vh;
 }
 
 .top p {
@@ -426,7 +436,7 @@ div#hats.content {
 /* under construction */
 
 #other h2 {
-  margin-top: 50vh;
+  /*margin-top: 50vh;*/
 }
 
 .under-construction h2 {
@@ -436,7 +446,7 @@ div#hats.content {
 }
 
 .under-construction {
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 .under-construction img {
