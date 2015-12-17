@@ -46,10 +46,7 @@ i.glyphicon.glyphicon-chevron-down {
 
 .nav-height {
   height: 100vh;
-}
-
-#resume {
-  margin-top: 825vh;
+  width: 150px;
 }
 
 h2 {
@@ -249,6 +246,10 @@ strong {
 }
 
 /* resume */
+
+#resume {
+  margin-top: 800vh;
+}
 
 /* Modify button */
 .btn {

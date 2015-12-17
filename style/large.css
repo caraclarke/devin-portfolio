@@ -66,28 +66,61 @@ ul#menu.nav.navbar-nav {
   height: 141px;
   width: 300px;
   margin-left: 0px;
-  margin-top: 75px;
+  margin-top: 65px;
 }
 
-@media screen and (min-width: 1280) {
+@media screen and (min-width: 1215px) {
   .about p {
     height: 141px;
     width: 300px;
     margin-left: 0px;
-    margin-top: 75px;
+    margin-top: 65px;
     position: absolute;
-    left: -100px;
+    left: 30px;
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1080px) {
   .about p {
     height: 141px;
     width: 300px;
     margin-left: 0px;
-    margin-top: 75px;
+    margin-top: 65px;
     position: absolute;
-    left: -175px;
+    left: 30px;
+  }
+}
+
+@media screen and (min-width: 1070px) {
+  .about p {
+    height: 141px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 65px;
+    position: absolute;
+    left: 50px;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  .about p {
+    height: 141px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 65px;
+    position: absolute;
+    left: 50px;
+  }
+}
+
+@media screen and (min-width: 1018px) {
+  .about p {
+    height: 141px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 65px;
+    position: absolute;
+    left: 50px;
   }
 }
 
@@ -235,7 +268,7 @@ div#hats.content {
 /* resume */
 
 .resume h2 {
-  margin-top: 250px;
+  /*margin-top: 250px;*/
   font-size: 54px;
   line-height: 120px;
   /*margin-left: 115px;*/

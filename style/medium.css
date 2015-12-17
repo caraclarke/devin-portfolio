@@ -1,56 +1,21 @@
+body, html {
+  width: 100%;
+}
+
 /* navbar */
 
-.navbar-header {
-  float: none;
-}
-
-.navbar-fixed-top {
-  position: fixed;
-  right: 0;
-  left: initial;
-}
-
-.navbar-left,.navbar-right {
-  float: none !important;
-}
-
-.navbar-toggle {
+div#hamburgermenu.container.nav-height {
+  width: 200px;
   display: block;
 }
 
-.navbar-collapse {
-  border-top: 1px solid transparent;
-}
-
-.navbar-fixed-top {
-  top: 0;
-  border-width: 0 0 1px;
-}
-
-.navbar-collapse.collapse {
-  display: none!important;
-}
-
-.navbar-nav {
-  float: none!important;
-  margin-top: 7.5px;
-}
-
-.navbar-nav>li {
-  float: none;
-}
-
-.navbar-nav>li>a {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.collapse.in {
-  display:block !important;
+.navbar {
+  width: initial;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
   color: #000;
+  background-color: #fff;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
   color: #000;
@@ -65,36 +30,102 @@
   width: auto;
 }
 
+h1, h2, h3 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* mobile-specific menu styling */
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+.navbar-sections {
+  padding: 0;
+}
+
+.navbar-nav .email-icon {
+  padding-left: 0;
+}
+
+.navbar-nav .navbar-icon-image {
+  display: inline !important;
+}
+
+.navbar-nav {
+  text-align: left;
+  /*width: 200px;*/
+  background-color: #fff;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: initial;
+}
+
+.dropdown-menu > li > a {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.navbar-collapse.in {
+  overflow-y: visible;
+}
+
+.nav-height {
+  height: 1000px;
+}
+
+nav div.container {
+  /*width: 200px;*/
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: auto;
+}
+
 .navbar-nav, .navbar-nav p {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
+.navbar-nav > li {
+  float:left;
+  margin-right: 20px;
+  /*width: 130px;*/
+}
+
+.navbar-nav > li > .img-sections {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
 /* line up navbar icons */
 
 img.img-sections.navbar-icon-image.email-icon {
   position: relative;
-  top: 10px;
-  right: 30px;
+  top: 46px;
+  right: 70px;
 }
 
 img.img-sections.navbar-icon-image.linkedin-icon {
   position: relative;
-  left: 23px;
-  bottom: 36px;
 }
 
 img.img-sections.navbar-icon-image.instagram-icon {
   position: relative;
-  bottom: 83px;
-  left: 56px;
+  left: 7px;
 }
 
 img.img-sections.navbar-icon-image.behance-icon {
   position: relative;
-  bottom: 130px;
-  left: 87px;
+  right: 18px;
 }
 
 .img-sections {
@@ -102,9 +133,31 @@ img.img-sections.navbar-icon-image.behance-icon {
   width: auto;
 }
 
+@media screen and (max-width: 985px) {
+  img.img-sections.navbar-icon-image.email-icon {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+
+  img.img-sections.navbar-icon-image.linkedin-icon {
+    position: relative;
+  }
+
+  img.img-sections.navbar-icon-image.instagram-icon {
+    position: relative;
+    left: 0;
+  }
+
+  img.img-sections.navbar-icon-image.behance-icon {
+    position: relative;
+    right: 0;
+  }
+}
+
 /* tablet menu styling */
 
-.navbar-default .navbar-toggle .icon-bar {
+/*.navbar-default .navbar-toggle .icon-bar {
   background-color: #000;
 }
 
@@ -127,14 +180,14 @@ img.img-sections.navbar-icon-image.behance-icon {
 
 .navbar-collapse.in {
   overflow-y: visible;
-}
+}*/
 
-nav div.container {
+/*nav div.container {
   width: 200px;
   padding-right: 0;
   margin-right: 0;
   margin-left: auto;
-}
+}*/
 
 /* about me */
 
@@ -303,7 +356,7 @@ div#hats.content {
 .resume h2 {
   font-size: 67px;
   text-align: center;
-  margin: 25px 25px 0px 25px;
+  margin: 0px 25px 0px 25px;
 }
 
 .resume img {
