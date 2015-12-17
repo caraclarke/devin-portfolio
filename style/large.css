@@ -324,11 +324,11 @@ div#hats.content {
 
 .comm-boston p {
   font-size: 14px;
-  line-height: 19px;
+  line-height: 25px;
 }
 
 .comm-top p {
-  height: 317px;
+  /*height: 317px;*/
   width: 333px;
 }
 
@@ -337,7 +337,6 @@ div#hats.content {
 }
 
 .comm-icons img {
-  margin-top: -625px;
   height: auto;
   width: 25px;
 }
