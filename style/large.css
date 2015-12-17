@@ -59,7 +59,7 @@ ul#menu.nav.navbar-nav {
 }
 
 .about-first h2 {
-  margin-top: -15px;
+  margin-top: 126px;
 }
 
 .about p {
@@ -96,7 +96,7 @@ ul#menu.nav.navbar-nav {
   width: 120px;
   border-radius: 50%;
   position: relative;
-  top: 139px;
+  top: 280px;
   left: 485px;
   overflow: hidden;
   z-index: 11;
