@@ -16,7 +16,13 @@ $(document).ready(function() {
     });
 
     (function() {
-        setTimeout(function() {$('#intro-video').css('display', 'none')}, 4100);
+        $('#myNavbar').css('visibility', 'hidden');
+        $('#navbar-eye').css('visibility', 'hidden');
+        setTimeout(function() {
+            $('#intro-video').css('display', 'none');
+            $('#myNavbar').css('visibility', 'visible');
+            $('#navbar-eye').css('visibility', 'visible');
+        }, 4100);
     }());
 
     $("#navbar-eye-img").on('click', function() {
