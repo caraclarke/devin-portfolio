@@ -251,6 +251,11 @@ div#hats.content {
 
 /* ux-portfolio */
 
+#sol-icon {
+  width: 145px;
+  height: 145px;
+}
+
 .top-port {
   margin-top: 25vh;
 }
