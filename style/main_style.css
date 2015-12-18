@@ -13,10 +13,16 @@ html {
 }
 
 @font-face {
-  font-family: 'Manbow';
+  font-family: 'Manbow Clear';
+  src: url('manbow-clear.ttf');
+  src: url('manbow_clear.otf');
+}
+
+/*@font-face{
+  font-family:"Manbow Clear";
   src: url('http://www.myfontfree.com/data/60/m/manbow/manbow clear.ttf');
   src: url('http://www.myfontfree.com/data/60/m/manbow/manbow clear.ttf')  format('truetype');
-}
+}*/
 
 .slide {
   color: #000;
@@ -50,7 +56,7 @@ html {
 }
 
 h2 {
-  font-family: 'Manbow';
+  font-family: 'Manbow Clear';
 }
 
 /*.site-section {

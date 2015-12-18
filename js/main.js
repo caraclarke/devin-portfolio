@@ -32,11 +32,11 @@ $(document).ready(function() {
 
     (function() {
         $('#myNavbar').css('visibility', 'hidden');
-        $('#navbar-eye').css('visibility', 'hidden');
+        $('#navbar-eye-img').css('visibility', 'hidden');
         setTimeout(function() {
             $('#intro-video').css('display', 'none');
             $('#myNavbar').css('visibility', 'visible');
-            $('#navbar-eye').css('visibility', 'visible');
+            $('#navbar-eye-img').css('visibility', 'visible');
         }, 4100);
     }());
 
