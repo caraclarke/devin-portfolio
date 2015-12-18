@@ -11,8 +11,9 @@
   <link rel="stylesheet" media="screen and (max-width: 767px)" href="style/small.css">
   <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 983px)" href="style/medium.css">
   <link rel="stylesheet" media="screen and (min-width: 984px)" href="style/large.css">
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css">
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css"/>
+  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css"/> -->
+  <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style/onepage-scroll.css">
 </head>
 <body>
@@ -217,50 +218,46 @@
         </div>
       </div>
       <div class="col-sm-12 col-md-6 col-lg-6">
-        <div class="slideshow-section">
-          <div>
-            <img class="clip-circle first-slide" src="images/comm/valentines.jpg" alt="Valentines Day">
-          </div>
-          <div class="clip-circle text">
+        <div class="fotorama"
+          data-width="100%"
+          data-ratio="800/600"
+          data-nav="thumbs"
+          data-fit="cover"
+          data-transition="slide"
+          data-loop="true"
+          data-autoplay="true"
+        >
+          <img class="first-slide" src="images/comm/valentines.jpg" alt="Valentines Day">
+          <div class="text">
             <h1>Celebrate Valentines Day with communiT Boston</h1>
               <p>We handed out free carnations with the caveat that recipients not keep the flowers for themselves, but instead challenge themselves to share the love by passing the carnations along to someone else, whether that was a stranger they ran into on their way home or whomever they were taking the T to meet. We also had a valentine-making station and a 60-second eye contact challenge.</p>
           </div>
-          <div>
-            <img class="clip-circle third-slide" src="images/comm/let-go.png" alt="Let Go">
-          </div>
-          <div class="clip-circle text">
+          <img class="third-slide" src="images/comm/let-go.png" alt="Let Go">
+          <div class="text">
             <h1>Let Go & Look Up</h1>
             <p>What happens when you put a paper shredder on the T platform? We asked commuters to write down something that they wanted to let go of in their life and then gave them the carnal satisfaction of shredding it and claiming their own personal blank slate.</p>
           </div>
-          <div>
-            <img class="clip-circle fifth-slide" src="images/comm/tattoos.png" alt="Tattoos with Strangers">
-          </div>
-          <div class="clip-circle text">
+          <img class="fifth-slide" src="images/comm/tattoos.png" alt="Tattoos with Strangers">
+          <div class="text">
             <h1>Tattoos with Strangers</h1>
             <p>We offered free temporary tattoos to commuters, with the caveat that they had to get a matching one with a stranger. People could pick from more than 200 options (hearts, dinosaurs, and Disney Princesses, anyone?) to commemorate their fledgling acquaintanceship with a passerby!</p>
           </div>
-          <div>
-            <img class="clip-circle seventh-slide" src="images/comm/tin-can.jpg" alt="Tin Can">
-          </div>
-          <div class="clip-circle text">
+          <img class="seventh-slide" src="images/comm/tin-can.jpg" alt="Tin Can">
+          <div class="text">
             <h1>2 Strangers, 2 Tin Cans, and a String: A Social Experiment in Connection</h1>
             <p>We put away our smart phones and brought long-distance communication back to the basics. We asked strangers to have a casual chat with each other using the original walkie talkie: two cans and a piece of string!</p>
           </div>
-          <div>
-            <img class="clip-circle ninth-slide" src="images/comm/pop-up.jpg" alt="Pop Up">
-          </div>
-          <div class="clip-circle text">
+          <img class="ninth-slide" src="images/comm/pop-up.jpg" alt="Pop Up">
+          <div class="text">
             <h1>A Pop-out, Pop-up Event</h1>
             <p>We invited people to let loose on our glow‑in‑the‑dark bubble wrap dance floor and experience the joy of popping along to the beat of the music.</p>
           </div>
-          <div>
-            <img class="clip-circle eleventh-slide" src="images/comm/worry-bead.png" alt="Worry Bead">
-          </div>
-          <div class="clip-circle text">
+          <img class="eleventh-slide" src="images/comm/worry-bead.png" alt="Worry Bead">
+          <div class="text">
             <h1>The Worry Bead Project</h1>
             <p>We invited people to be part of our reworking of an ancient ritual by writing down their worries on the bead of your choice. The color of each bead served as a visual representation of the different categories of worries--relational, financial, spiritual, etc. Over the course of the afternoon, individuals’ internal experiences were transformed into a collective art piece.</p>
           </div>
-        </div>
+        </div> <!-- end slideshow -->
       </div>
 
     </div> <!-- end comm boston -->
@@ -332,7 +329,8 @@
   <script type="text/javascript" src="js/main.js"></script>
   <script src="js/jquery.onepage-scroll.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+  <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script> -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
   <script type="text/javascript" src="js/hamburger_menu.js"></script>
 </body>
 </html>

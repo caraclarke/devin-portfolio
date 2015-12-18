@@ -326,6 +326,10 @@ section .content {
 
 /* communit boston */
 
+.comm-boston {
+  margin-top: 15vh;
+}
+
 .comm-boston h2 {
   /*margin-top: 20vh;*/
   font-size: 54px;
@@ -366,8 +370,8 @@ section .content {
 }
 
 .text {
-  height: 500px;
-  width: 500px;
+  /*height: 500px;
+  width: 500px;*/
   padding-right: 80px;
   padding-left: 80px;
   padding-top: 75px;

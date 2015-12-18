@@ -14,21 +14,31 @@ $(document).ready(function() {
          direction: "vertical"
      });
 
-    $('.slideshow-section').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        dots: true,
-        speed: 300,
-        centerMode: true,
-        arrows: true,
-        cssEase: 'ease',
-        initialSlide: 2,
-        respondTo: 'min',
-        swipeToSlide: true,
-        variableWidth: true
+    $('.fotorama').fotorama({
+        width: 600,
+        maxwidth: '100%',
+        ratio: 16/9,
+        allowfullscreen: true,
+        nav: 'thumbs',
+        thumbborderwidth: '50%',
+        startindex: 3
     });
+
+    // $('.slideshow-section').slick({
+    //     infinite: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     dots: true,
+    //     speed: 300,
+    //     centerMode: true,
+    //     arrows: true,
+    //     cssEase: 'ease',
+    //     initialSlide: 2,
+    //     respondTo: 'min',
+    //     swipeToSlide: true,
+    //     variableWidth: true
+    // });
 
     (function() {
         $('#myNavbar').css('visibility', 'hidden');
