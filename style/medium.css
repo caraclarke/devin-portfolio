@@ -490,26 +490,26 @@ div#hats.content {
   text-align: center;
 }
 
-.tea-profile {
+div.circle-tea.tea-profile {
   height: 209px;
   width: 209px;
 }
 
-.tea-first {
+div.circle-tea.tea-first {
   height: 197px;
   width: 197px;
   position: relative;
   left: 50px;
 }
 
-.tea-second {
+div.circle-tea.tea-second {
   height: 295px;
   width: 295px;
   position: relative;
   left: 150px;
 }
 
-.tea-third {
+div.circle-tea.tea-third {
   height: 129px;
   width: 129px;
   position: relative;

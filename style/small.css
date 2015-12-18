@@ -436,18 +436,18 @@ div#hats.content {
   height: 183px;
 }
 
-.tea-profile {
+div.circle-tea.tea-profile {
   height: 194px;
   width: 194px;
 }
 
-.tea-first {
+div.circle-tea.tea-first {
   height: 101px;
   width: 101px;
   left: 15px;
 }
 
-.tea-second {
+div.circle-tea.tea-second {
   height: 167px;
   width: 167px;
   position: relative;
@@ -455,7 +455,7 @@ div#hats.content {
   top: 15px;
 }
 
-.tea-third {
+div.circle-tea.tea-third {
   height: 66px;
   width: 66px;
   left: 30px;

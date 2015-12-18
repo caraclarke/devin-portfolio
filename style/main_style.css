@@ -18,12 +18,6 @@ html {
   src: url('manbow_clear.otf');
 }
 
-/*@font-face{
-  font-family:"Manbow Clear";
-  src: url('http://www.myfontfree.com/data/60/m/manbow/manbow clear.ttf');
-  src: url('http://www.myfontfree.com/data/60/m/manbow/manbow clear.ttf')  format('truetype');
-}*/
-
 .slide {
   color: #000;
   font-size: 15px;
@@ -32,12 +26,6 @@ html {
 .carousel-caption {
   color: #000;
 }
-
-/*i.glyphicon.glyphicon-chevron-down {
-  position: fixed;
-  top: 90vh;
-  right: 25px;
-}*/
 
 .open-nav {
   position: fixed;
@@ -290,6 +278,18 @@ span.text-content span {
   color: #fff;
   background-color: #000;
   border-color: #fff;
+}
+
+/* tea with strangers */
+div.circle-tea {
+  max-width: 100%;
+  /*display:block;*/
+  /*padding-top:100%;*/
+  border-radius:50%;
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* under construction pages */
