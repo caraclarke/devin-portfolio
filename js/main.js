@@ -24,29 +24,13 @@ $(document).ready(function() {
         startindex: 3
     });
 
-    // $('.slideshow-section').slick({
-    //     infinite: true,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     dots: true,
-    //     speed: 300,
-    //     centerMode: true,
-    //     arrows: true,
-    //     cssEase: 'ease',
-    //     initialSlide: 2,
-    //     respondTo: 'min',
-    //     swipeToSlide: true,
-    //     variableWidth: true
-    // });
-
     (function() {
-        $('#myNavbar').css('visibility', 'hidden');
-        $('#navbar-eye-img').css('visibility', 'hidden');
+        $('#myNavbar').addClass('hidden');
+        $('#navbar-eye').addClass('hidden');
         setTimeout(function() {
             $('#intro-video').css('display', 'none');
-            $('#myNavbar').css('visibility', 'visible');
-            $('#navbar-eye-img').css('visibility', 'visible');
+            $('#myNavbar').removeClass('hidden');
+            $('#navbar-eye').removeClass('hidden');
         }, 4100);
     }());
 
