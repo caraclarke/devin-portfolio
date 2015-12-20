@@ -12,7 +12,7 @@
   <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 983px)" href="style/medium.css">
   <link rel="stylesheet" media="screen and (min-width: 984px)" href="style/large.css">
   <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style/onepage-scroll.css">
+  <link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css" />
 </head>
 <body>
 <video id="intro-video" src="images/video/intro-eye-video.mp4" height="100%" width="100%" poster="images/eye-full.png" preload="auto" onplaying="this.controls=false" autoplay></video>
@@ -32,20 +32,20 @@
           <li data-menuanchor="about-me" class="dropdown navbar-sections">
             <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Me <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li data-menuanchor="about-me"><a href="#about-me">About Me</a></li>
-              <li data-menuanchor="hats"><a href="#hats">My Hats</a></li>
-              <li data-menuanchor="resume"><a href="#resume">Resume</a></li>
+              <li data-menuanchor="one"><a href="#about-me">About Me</a></li>
+              <li data-menuanchor="two"><a href="#hats">My Hats</a></li>
+              <li data-menuanchor="ten"><a href="#resume">Resume</a></li>
             </ul>
           </li>
-          <li data-menuanchor="ux-portfolio" class="navbar-sections"><a href="#ux-portfolio">UX Portfolio</a></li>
-          <li data-menuanchor="comm-boston" class="navbar-sections"><a href="#comm-boston">communiT Boston</a></li>
+          <li data-menuanchor="eleven" class="navbar-sections"><a href="#eleven">UX Portfolio</a></li>
+          <li data-menuanchor="twelve" class="navbar-sections"><a href="#twelve">communiT Boston</a></li>
           <li class="dropdown navbar-sections">
             <a href="#" class="dropdown-toggle active navbar-sections" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li data-menuanchor="tea-with-strangers"><a href="#tea-with-strangers">Tea With Strangers</a></li>
-              <li data-menuanchor="psych-research"><a href="#psych-research">Psychology Research</a></li>
-              <li data-menuanchor="art"><a href="#art">Art</a></li>
-              <li data-menuanchor="blog"><a href="#blog">Blog</a></li>
+              <li data-menuanchor="thirteen"><a href="#thirteen">Tea With Strangers</a></li>
+              <li data-menuanchor="fourteen"><a href="#fourteen">Psychology Research</a></li>
+              <li data-menuanchor="fifteen"><a href="#fifteen">Art</a></li>
+              <li data-menuanchor="sixteen"><a href="#sixteen">Blog</a></li>
             </ul>
           </li>
           <!-- icons -->
@@ -58,12 +58,10 @@
     </div>
   </nav>
 
-<div class="main">
-  <div id="fullpage" class="container-fluid">
+<div id="fullpage">
 
-    <div id="about-me" class="about site-section section">
-      <section>
-      <div class="about-me">
+    <div id="about-me" class="about site-section">
+      <div class="section" data-anchor="one">
         <div class="about-first col-xs-12 col-sm-12 col-md-12">
           <div class="about-image-hold"><img src="images/devin-headshot.png"></div>
           <h2>About</h2>
@@ -74,73 +72,73 @@
         <div class="col-xs-12 col-sm-12 col-md-5">
           <p>I grew up with a question mark studded to the tip of my tongue and I’ve been following my curiosity ever since. I delight in connecting ideas and engaging in empathy-driven, creative problem solving.</p>
         </div>
-        <!-- <a class="btn" href="#" id="moveDown"><i class="glyphicon glyphicon-chevron-down"></i></a> -->
-      </div><br><br> <!-- hats -->
-      </section>
+    </div> <!-- end one -->
+  </div> <!-- end id=about-me -->
 
-      <section>
+  <div id="hats">
+    <div class="section" data-anchor="two">
       <div id="hats" class="site-section content">
         <div class="parallax-bg first col-xs-12 col-sm-12 col-md-12">
           <p>I wear a lot of different hats...</p>
         </div>
       </div>
-      </section>
+    </div> <!-- end two -->
 
-      <section>
+    <div class="section" data-anchor="three">
       <div class="site-section content">
         <div id="social-psych" class="parallax-bg social-psych">
           <p>I'm a <strong>social psychologist</strong>.</p>
           <img class="grad-cap" src="images/grad-cap.png">
         </div>
       </div>
-      </section>
+    </div> <!-- end three -->
 
-      <section>
+    <div class="section" data-anchor="four">
       <div class="site-section content">
         <div class="parallax-bg improvisor">
           <p>I'm an <strong>improviser</strong>.</p>
           <img class="jester-cap" src="images/jester-cap.png">
         </div>
       </div>
-      </section>
+    </div> <!-- end four -->
 
-      <section>
+    <div class="section" data-anchor="five">
       <div class="site-section content">
         <div class="parallax-bg community-builder">
           <p>I'm a <strong>community builder</strong>.</p>
           <img class="comm-cap" src="images/comm-cap.png">
         </div>
       </div>
-      </section>
+    </div> <!-- end five -->
 
-      <section>
+    <div class="section" data-anchor="six">
       <div class="site-section content">
         <div class="parallax-bg artist">
           <p>I'm an <strong>artist</strong>.</p>
           <img class="artist-cap" src="images/artist-cap.png">
         </div>
       </div>
-      </section>
+    </div> <!-- end six -->
 
-      <section>
+    <div class="section" data-anchor="seven">
       <div class="site-section content">
         <div class="parallax-bg nerd">
           <p>I'm a <strong>nerd</strong>.</p>
           <img class="nerd-cap" src="images/nerd-cap.png">
         </div>
       </div>
-      </section>
+    </div> <!-- end seven -->
 
-      <section>
+    <div class="section" data-anchor="eight">
       <div class="site-section content">
         <div class="parallax-bg kid">
           <p>I'm a <strong>kid at heart</strong>.</p>
           <img class="kid-cap" src="images/kid-cap.png">
         </div>
       </div>
-      </section>
+    </div> <!-- end eight -->
 
-      <section>
+    <div class="section" data-anchor="nine">
       <div class="site-section content">
         <div class="parallax-bg final-slide">
           <p>And altogether,<br>I'm a <strong>designer</strong>.</p>
@@ -153,12 +151,13 @@
             <img class="all-the-hats-nerd nerd-hat" src="images/nerd-cap.png">
           </div>
         </div>
-      </div> <!-- end hats -->
-      </section>
-    </div> <!-- end about me -->
+      </div>
+    </div> <!-- end nine -->
 
-    <section>
-    <div id="resume" class="section site-section resume col-sm-12 col-md-12">
+  </div> <!-- end id=hats -->
+
+  <div class="section" data-anchor="ten">
+    <div id="resume" class="site-section resume col-sm-12 col-md-12">
       <div class="col-sm-12 col-md-6">
         <h2>Resume</h2>
         <a class="btn btn-primary outline" href="images/resume-pdf.pdf" target="_blank">View</a>
@@ -167,10 +166,10 @@
         <a href="images/resume-pdf.pdf" target="_blank"><img class="devin-resume" src="images/resume-temp.png"></a>
       </div>
     </div> <!-- end resume -->
-    </section>
+  </div> <!-- end ten -->
 
-    <section>
-    <div id="ux-portfolio" class="section site-section ux-portfolio col-sm-12 col-md-12">
+  <div class="section" data-anchor="eleven">
+    <div id="ux-portfolio" class="site-section ux-portfolio col-sm-12 col-md-12">
       <div class="col-sm-12 col-md-5 col-lg-5 top-port">
         <h2>UX<br>Portfolio</h2>
       </div><br>
@@ -197,10 +196,10 @@
         </div>
       </div>
     </div> <!-- end ux-portfolio -->
-    </section>
+  </div> <!-- end eleven -->
 
-    <section>
-    <div id="comm-boston" class="section site-section comm-boston col-sm-12 col-md-12">
+  <div class="section" data-anchor="twelve">
+    <div id="comm-boston" class="site-section comm-boston col-sm-12 col-md-12">
       <div class="comm-top col-sm-12 col-md-6 col-lg-6">
         <h2>communiT<br>Boston</h2>
         <p>We strive to use art and play on the subway (the T) to foster empathy and create micro-connections between people who might otherwise never interact and may never meet again.</p>
@@ -258,10 +257,10 @@
       </div>
 
     </div> <!-- end comm boston -->
-    </section>
+  </div> <!-- end twelve -->
 
-    <section>
-    <div id="tea-with-strangers" class="section site-section tea-with-strangers">
+  <div class="section" data-anchor="thirteen">
+    <div id="tea-with-strangers" class="site-section tea-with-strangers">
       <div class="col-sm-12 col-md-7 col-lg-7">
           <h2>TEA WITH<br>STRANGERS</h2>
           <p>As a host for Tea With Strangers Boston, I bring together groups of 2 to 5 strangers for 2-hour long, free-flowing conversations in public settings. You never know who is going to show up to a tea time, and you never know what you’re all going to talk about!</p><br>
@@ -275,10 +274,10 @@
         <div class="circle-tea tea-third" style="background-image:url(images/tea-strangers/IMG_3142.png)"></div>
       </div>
     </div> <!-- end tea with strangers -->
-    </section>
+  </div> <!-- end thirteen -->
 
-    <section>
-    <div class="section site-section under-construction" id="other">
+  <div class="section" data-anchor="fourteen">
+    <div class="site-section under-construction" id="other">
       <div id="psych-research" class="col-sm-12 col-md-12">
         <h2>Psychology Research</h2><br>
       </div>
@@ -289,10 +288,10 @@
         <p>UNDER CONSTRUCTION. Please check back soon.</p>
       </div>
     </div>
-    </section>
+  </div> <!-- end fourteen -->
 
-    <section>
-    <div class="section site-section under-construction" id="other2">
+  <div class="section" data-anchor="fifteen">
+    <div class="site-section under-construction" id="other2">
       <div id="art" class="col-sm-12 col-md-12">
         <h2>Art</h2><br>
       </div>
@@ -303,10 +302,10 @@
         <p>UNDER CONSTRUCTION. Please check back soon.</p>
       </div>
     </div>
-    </section>
+  </div> <!-- end fifteen -->
 
-    <section>
-    <div class="section site-section under-construction" id="other3">
+  <div class="section" data-anchor="sixteen">
+    <div class="site-section under-construction" id="other3">
       <div id="blog" class="col-sm-12 col-md-12">
         <h2>Blog</h2><br>
       </div>
@@ -317,14 +316,14 @@
         <p>UNDER CONSTRUCTION. Please check back soon.</p>
       </div>
     </div>
-    </section>
+  </div> <!-- end sixteen -->
 
-</div> <!-- end main -->
+</div> <!-- end full page -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
-  <script src="js/jquery.onepage-scroll.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
   <script type="text/javascript" src="js/hamburger_menu.js"></script>
 </body>

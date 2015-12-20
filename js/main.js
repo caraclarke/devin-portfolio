@@ -1,16 +1,23 @@
 $(document).ready(function() {
 
-    $(".main").onepage_scroll({
-         sectionContainer: "section",
-         easing: "ease",
-         animationTime: 1000,
-         pagination: true,
-         updateURL: false,
-         loop: false,
-         keyboard: true,
-         responsiveFallback: false,
-         direction: "vertical"
-     });
+    $('#fullpage').fullpage({
+        anchors: ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen'],
+        menu: '#myNavbar',
+        navigation: true,
+        navigationPosition: 'right'
+    });
+
+    // $(".main").onepage_scroll({
+    //      sectionContainer: "section",
+    //      easing: "ease",
+    //      animationTime: 1000,
+    //      pagination: true,
+    //      updateURL: false,
+    //      loop: false,
+    //      keyboard: true,
+    //      responsiveFallback: false,
+    //      direction: "vertical"
+    //  });
 
     $('.fotorama').fotorama({
         width: 600,
