@@ -3,3 +3,13 @@ draft-5.sketch
 
 node_modules/*
 library/*
+
+page-scroll-effects/css/reset.css
+page-scroll-effects/img/*
+page-scroll-effects/js/jquery-2.1.4.js
+page-scroll-effects/js/modernizr.js
+page-scroll-effects/js/VELOCITY-LICENSE.md
+page-scroll-effects/partials/*
+page-scroll-effects/scss/*
+page-scroll-effects/index.html
+page-scroll-effects/readme.pdf
